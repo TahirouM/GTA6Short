@@ -1,0 +1,710 @@
+[
+ {
+  "id": "w0",
+  "text": "Jusqu'à",
+  "start": 0.0,
+  "end": 0.4
+ },
+ {
+  "id": "w1",
+  "text": "deux",
+  "start": 0.64,
+  "end": 0.8
+ },
+ {
+  "id": "w2",
+  "text": "cent",
+  "start": 0.88,
+  "end": 0.96
+ },
+ {
+  "id": "w3",
+  "text": "douze",
+  "start": 1.12,
+  "end": 1.28
+ },
+ {
+  "id": "w4",
+  "text": "gigas.",
+  "start": 1.44,
+  "end": 2.0
+ },
+ {
+  "id": "w5",
+  "text": "C'est",
+  "start": 2.16,
+  "end": 2.24
+ },
+ {
+  "id": "w6",
+  "text": "la",
+  "start": 2.28,
+  "end": 2.32
+ },
+ {
+  "id": "w7",
+  "text": "place",
+  "start": 2.4,
+  "end": 2.56
+ },
+ {
+  "id": "w8",
+  "text": "qu'il",
+  "start": 2.6,
+  "end": 2.72
+ },
+ {
+  "id": "w9",
+  "text": "te",
+  "start": 2.8,
+  "end": 2.88
+ },
+ {
+  "id": "w10",
+  "text": "faudra",
+  "start": 2.92,
+  "end": 3.2
+ },
+ {
+  "id": "w11",
+  "text": "pour",
+  "start": 3.28,
+  "end": 3.36
+ },
+ {
+  "id": "w12",
+  "text": "GTA",
+  "start": 3.44,
+  "end": 3.76
+ },
+ {
+  "id": "w13",
+  "text": "6.",
+  "start": 3.84,
+  "end": 4.24
+ },
+ {
+  "id": "w14",
+  "text": "Sur",
+  "start": 4.56,
+  "end": 4.64
+ },
+ {
+  "id": "w15",
+  "text": "une",
+  "start": 4.72,
+  "end": 4.8
+ },
+ {
+  "id": "w16",
+  "text": "PS5",
+  "start": 4.84,
+  "end": 5.2
+ },
+ {
+  "id": "w17",
+  "text": "de",
+  "start": 5.28,
+  "end": 5.36
+ },
+ {
+  "id": "w18",
+  "text": "base,",
+  "start": 5.44,
+  "end": 5.84
+ },
+ {
+  "id": "w19",
+  "text": "ça",
+  "start": 5.92,
+  "end": 6.0
+ },
+ {
+  "id": "w20",
+  "text": "représente",
+  "start": 6.12,
+  "end": 6.48
+ },
+ {
+  "id": "w21",
+  "text": "presque",
+  "start": 6.6,
+  "end": 6.8
+ },
+ {
+  "id": "w22",
+  "text": "un",
+  "start": 6.96,
+  "end": 7.04
+ },
+ {
+  "id": "w23",
+  "text": "tiers",
+  "start": 7.2,
+  "end": 7.44
+ },
+ {
+  "id": "w24",
+  "text": "de",
+  "start": 7.52,
+  "end": 7.56
+ },
+ {
+  "id": "w25",
+  "text": "l'espace",
+  "start": 7.6,
+  "end": 7.92
+ },
+ {
+  "id": "w26",
+  "text": "disponible.",
+  "start": 8.0,
+  "end": 8.56
+ },
+ {
+  "id": "w27",
+  "text": "Bonne",
+  "start": 8.96,
+  "end": 9.12
+ },
+ {
+  "id": "w28",
+  "text": "nouvelle",
+  "start": 9.2,
+  "end": 9.52
+ },
+ {
+  "id": "w29",
+  "text": ":",
+  "start": 9.76,
+  "end": 9.8
+ },
+ {
+  "id": "w30",
+  "text": "Rockstar",
+  "start": 9.84,
+  "end": 10.32
+ },
+ {
+  "id": "w31",
+  "text": "avance",
+  "start": 10.48,
+  "end": 10.72
+ },
+ {
+  "id": "w32",
+  "text": "le",
+  "start": 10.8,
+  "end": 10.88
+ },
+ {
+  "id": "w33",
+  "text": "préchargement",
+  "start": 10.96,
+  "end": 11.52
+ },
+ {
+  "id": "w34",
+  "text": "au",
+  "start": 11.6,
+  "end": 11.76
+ },
+ {
+  "id": "w35",
+  "text": "mardi",
+  "start": 11.8,
+  "end": 12.16
+ },
+ {
+  "id": "w36",
+  "text": "dix",
+  "start": 12.24,
+  "end": 12.36
+ },
+ {
+  "id": "w37",
+  "text": "novembre,",
+  "start": 12.4,
+  "end": 13.12
+ },
+ {
+  "id": "w38",
+  "text": "deux",
+  "start": 13.16,
+  "end": 13.28
+ },
+ {
+  "id": "w39",
+  "text": "jours",
+  "start": 13.36,
+  "end": 13.52
+ },
+ {
+  "id": "w40",
+  "text": "plus",
+  "start": 13.6,
+  "end": 13.68
+ },
+ {
+  "id": "w41",
+  "text": "tôt",
+  "start": 13.707,
+  "end": 13.76
+ },
+ {
+  "id": "w42",
+  "text": "que",
+  "start": 13.8,
+  "end": 13.84
+ },
+ {
+  "id": "w43",
+  "text": "prévu.",
+  "start": 13.92,
+  "end": 14.24
+ },
+ {
+  "id": "w44",
+  "text": "Sur",
+  "start": 14.64,
+  "end": 14.72
+ },
+ {
+  "id": "w45",
+  "text": "PS5,",
+  "start": 14.8,
+  "end": 15.52
+ },
+ {
+  "id": "w46",
+  "text": "ça",
+  "start": 15.56,
+  "end": 15.6
+ },
+ {
+  "id": "w47",
+  "text": "s'ouvre",
+  "start": 15.68,
+  "end": 15.92
+ },
+ {
+  "id": "w48",
+  "text": "à",
+  "start": 15.96,
+  "end": 16.0
+ },
+ {
+  "id": "w49",
+  "text": "minuit.",
+  "start": 16.08,
+  "end": 16.56
+ },
+ {
+  "id": "w50",
+  "text": "Sur",
+  "start": 16.64,
+  "end": 16.72
+ },
+ {
+  "id": "w51",
+  "text": "Xbox,",
+  "start": 16.8,
+  "end": 17.36
+ },
+ {
+  "id": "w52",
+  "text": "à",
+  "start": 17.44,
+  "end": 17.52
+ },
+ {
+  "id": "w53",
+  "text": "une",
+  "start": 17.6,
+  "end": 17.68
+ },
+ {
+  "id": "w54",
+  "text": "heure",
+  "start": 17.76,
+  "end": 17.84
+ },
+ {
+  "id": "w55",
+  "text": "du",
+  "start": 17.88,
+  "end": 17.92
+ },
+ {
+  "id": "w56",
+  "text": "matin,",
+  "start": 18.0,
+  "end": 18.4
+ },
+ {
+  "id": "w57",
+  "text": "heure",
+  "start": 18.48,
+  "end": 18.56
+ },
+ {
+  "id": "w58",
+  "text": "française.",
+  "start": 18.6,
+  "end": 19.2
+ },
+ {
+  "id": "w59",
+  "text": "Attention,",
+  "start": 19.6,
+  "end": 20.24
+ },
+ {
+  "id": "w60",
+  "text": "en",
+  "start": 20.32,
+  "end": 20.4
+ },
+ {
+  "id": "w61",
+  "text": "boîte,",
+  "start": 20.48,
+  "end": 20.88
+ },
+ {
+  "id": "w62",
+  "text": "t'auras",
+  "start": 20.907,
+  "end": 21.2
+ },
+ {
+  "id": "w63",
+  "text": "juste",
+  "start": 21.32,
+  "end": 21.52
+ },
+ {
+  "id": "w64",
+  "text": "un",
+  "start": 21.56,
+  "end": 21.6
+ },
+ {
+  "id": "w65",
+  "text": "code,",
+  "start": 21.68,
+  "end": 22.08
+ },
+ {
+  "id": "w66",
+  "text": "pas",
+  "start": 22.12,
+  "end": 22.16
+ },
+ {
+  "id": "w67",
+  "text": "de",
+  "start": 22.2,
+  "end": 22.24
+ },
+ {
+  "id": "w68",
+  "text": "disque.",
+  "start": 22.32,
+  "end": 22.72
+ },
+ {
+  "id": "w69",
+  "text": "Les",
+  "start": 23.04,
+  "end": 23.12
+ },
+ {
+  "id": "w70",
+  "text": "codes",
+  "start": 23.2,
+  "end": 23.52
+ },
+ {
+  "id": "w71",
+  "text": "arrivent",
+  "start": 23.6,
+  "end": 23.76
+ },
+ {
+  "id": "w72",
+  "text": "en",
+  "start": 23.84,
+  "end": 23.88
+ },
+ {
+  "id": "w73",
+  "text": "magasin",
+  "start": 23.92,
+  "end": 24.32
+ },
+ {
+  "id": "w74",
+  "text": "à",
+  "start": 24.4,
+  "end": 24.48
+ },
+ {
+  "id": "w75",
+  "text": "partir",
+  "start": 24.6,
+  "end": 24.8
+ },
+ {
+  "id": "w76",
+  "text": "du",
+  "start": 24.88,
+  "end": 24.96
+ },
+ {
+  "id": "w77",
+  "text": "douze.",
+  "start": 25.04,
+  "end": 25.76
+ },
+ {
+  "id": "w78",
+  "text": "Le",
+  "start": 25.8,
+  "end": 25.84
+ },
+ {
+  "id": "w79",
+  "text": "jeu",
+  "start": 25.92,
+  "end": 26.08
+ },
+ {
+  "id": "w80",
+  "text": "se",
+  "start": 26.16,
+  "end": 26.24
+ },
+ {
+  "id": "w81",
+  "text": "débloque",
+  "start": 26.32,
+  "end": 26.64
+ },
+ {
+  "id": "w82",
+  "text": "le",
+  "start": 26.72,
+  "end": 26.8
+ },
+ {
+  "id": "w83",
+  "text": "dix-neuf",
+  "start": 26.96,
+  "end": 27.28
+ },
+ {
+  "id": "w84",
+  "text": "novembre",
+  "start": 27.36,
+  "end": 27.84
+ },
+ {
+  "id": "w85",
+  "text": "à",
+  "start": 27.92,
+  "end": 28.08
+ },
+ {
+  "id": "w86",
+  "text": "minuit,",
+  "start": 28.2,
+  "end": 28.64
+ },
+ {
+  "id": "w87",
+  "text": "heure",
+  "start": 28.72,
+  "end": 28.8
+ },
+ {
+  "id": "w88",
+  "text": "locale.",
+  "start": 29.04,
+  "end": 29.68
+ },
+ {
+  "id": "w89",
+  "text": "Et",
+  "start": 29.8,
+  "end": 29.92
+ },
+ {
+  "id": "w90",
+  "text": "pas",
+  "start": 29.96,
+  "end": 30.0
+ },
+ {
+  "id": "w91",
+  "text": "d'accès",
+  "start": 30.08,
+  "end": 30.32
+ },
+ {
+  "id": "w92",
+  "text": "anticipé,",
+  "start": 30.48,
+  "end": 31.12
+ },
+ {
+  "id": "w93",
+  "text": "même",
+  "start": 31.24,
+  "end": 31.36
+ },
+ {
+  "id": "w94",
+  "text": "avec",
+  "start": 31.48,
+  "end": 31.6
+ },
+ {
+  "id": "w95",
+  "text": "l'édition",
+  "start": 31.653,
+  "end": 32.0
+ },
+ {
+  "id": "w96",
+  "text": "Ultime.",
+  "start": 32.08,
+  "end": 32.8
+ },
+ {
+  "id": "w97",
+  "text": "Si",
+  "start": 32.84,
+  "end": 32.88
+ },
+ {
+  "id": "w98",
+  "text": "tu",
+  "start": 32.92,
+  "end": 32.96
+ },
+ {
+  "id": "w99",
+  "text": "l'achètes",
+  "start": 33.04,
+  "end": 33.36
+ },
+ {
+  "id": "w100",
+  "text": "avant",
+  "start": 33.4,
+  "end": 33.52
+ },
+ {
+  "id": "w101",
+  "text": "le",
+  "start": 33.56,
+  "end": 33.6
+ },
+ {
+  "id": "w102",
+  "text": "vingt,",
+  "start": 33.68,
+  "end": 34.0
+ },
+ {
+  "id": "w103",
+  "text": "tu",
+  "start": 34.04,
+  "end": 34.08
+ },
+ {
+  "id": "w104",
+  "text": "récupères",
+  "start": 34.12,
+  "end": 34.48
+ },
+ {
+  "id": "w105",
+  "text": "le",
+  "start": 34.56,
+  "end": 34.64
+ },
+ {
+  "id": "w106",
+  "text": "pack",
+  "start": 34.76,
+  "end": 34.88
+ },
+ {
+  "id": "w107",
+  "text": "Vintage",
+  "start": 34.96,
+  "end": 35.36
+ },
+ {
+  "id": "w108",
+  "text": "Vice",
+  "start": 35.4,
+  "end": 35.6
+ },
+ {
+  "id": "w109",
+  "text": "City.",
+  "start": 35.68,
+  "end": 36.4
+ },
+ {
+  "id": "w110",
+  "text": "Alors,",
+  "start": 36.48,
+  "end": 36.96
+ },
+ {
+  "id": "w111",
+  "text": "t'as",
+  "start": 36.987,
+  "end": 37.08
+ },
+ {
+  "id": "w112",
+  "text": "déjà",
+  "start": 37.12,
+  "end": 37.28
+ },
+ {
+  "id": "w113",
+  "text": "fait",
+  "start": 37.36,
+  "end": 37.44
+ },
+ {
+  "id": "w114",
+  "text": "de",
+  "start": 37.467,
+  "end": 37.493
+ },
+ {
+  "id": "w115",
+  "text": "la",
+  "start": 37.52,
+  "end": 37.56
+ },
+ {
+  "id": "w116",
+  "text": "place",
+  "start": 37.6,
+  "end": 37.92
+ },
+ {
+  "id": "w117",
+  "text": "?",
+  "start": 38.0,
+  "end": 38.16
+ }
+]

@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:#0B0614; }
+      #root { position:relative; width:100%; height:100%; overflow:hidden; }
+      #bg { position:absolute; inset:0; background:#0B0614; }
+      #cam, #whip, #zoom, #stage { position:absolute; inset:0; }
+      #whip, #zoom { transform-origin:50% 50%; }
+      #stage { transform-origin:50% 45%; }
+      #stage video { position:absolute; left:0; top:0; width:1080px; height:1920px; object-fit:cover; }
+      #scrim-top { position:absolute; left:0; right:0; top:0; height:900px; z-index:5;
+        background:linear-gradient(180deg, rgba(11,6,20,.78) 0%, rgba(11,6,20,.35) 45%, rgba(11,6,20,0) 100%); }
+      #scrim-bot { position:absolute; left:0; right:0; bottom:0; height:900px; z-index:5;
+        background:linear-gradient(0deg, rgba(11,6,20,.8) 0%, rgba(11,6,20,.3) 55%, rgba(11,6,20,0) 100%); }
+      #glitch { position:absolute; inset:0; z-index:6; pointer-events:none; }
+      #glitch .gb { position:absolute; left:-120px; right:-120px; top:0; opacity:0; mix-blend-mode:screen; }
+      #leak { position:absolute; top:-200px; left:-300px; width:1700px; height:2400px; z-index:7; opacity:0; mix-blend-mode:screen;
+        background:radial-gradient(closest-side, rgba(255,214,120,.95), rgba(255,138,61,.75) 40%, rgba(255,46,136,.45) 70%, rgba(255,46,136,0)); }
+      #flash { position:absolute; inset:0; z-index:40; background:#FF2E88; mix-blend-mode:screen; opacity:0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="39.160" data-width="1080" data-height="1920" data-motion-blur="on">
+      <div id="bg"></div>
+      <div id="cam"><div id="whip"><div id="zoom"><div id="stage">
+        <video id="v00" class="clip" src="assets/clips/c00_QdBZY2fkU-0_017_cover.mp4" data-start="0.000" data-duration="2.240" data-track-index="0" muted playsinline></video>
+        <video id="v01" class="clip" src="assets/clips/c01_tJbzMqJGH4k_124_cover.mp4" data-start="2.240" data-duration="2.240" data-track-index="0" muted playsinline></video>
+        <video id="v02" class="clip" src="assets/clips/c02_tJbzMqJGH4k_112_cover.mp4" data-start="8.880" data-duration="1.893" data-track-index="0" muted playsinline></video>
+        <video id="v03" class="clip" src="assets/clips/c03_tJbzMqJGH4k_116_cover.mp4" data-start="10.773" data-duration="1.893" data-track-index="0" muted playsinline></video>
+        <video id="v04" class="clip" src="assets/clips/c04_tJbzMqJGH4k_121_cover.mp4" data-start="12.666" data-duration="1.893" data-track-index="0" muted playsinline></video>
+        <video id="v05" class="clip" src="assets/clips/c05_QdBZY2fkU-0_014_cover.mp4" data-start="14.560" data-duration="1.653" data-track-index="0" muted playsinline></video>
+        <video id="v06" class="clip" src="assets/clips/c06_VQRLujxTm3c_042_cover.mp4" data-start="16.213" data-duration="1.653" data-track-index="0" muted playsinline></video>
+        <video id="v07" class="clip" src="assets/clips/c07_tJbzMqJGH4k_081_cover.mp4" data-start="17.866" data-duration="1.653" data-track-index="0" muted playsinline></video>
+        <video id="v08" class="clip" src="assets/clips/c08_tJbzMqJGH4k_077_cover.mp4" data-start="19.520" data-duration="1.720" data-track-index="0" muted playsinline></video>
+        <video id="v09" class="clip" src="assets/clips/c09_tJbzMqJGH4k_084_cover.mp4" data-start="21.240" data-duration="1.720" data-track-index="0" muted playsinline></video>
+        <video id="v10" class="clip" src="assets/clips/c10_tJbzMqJGH4k_122_cover.mp4" data-start="25.720" data-duration="2.000" data-track-index="0" muted playsinline></video>
+        <video id="v11" class="clip" src="assets/clips/c11_tJbzMqJGH4k_135_cover.mp4" data-start="27.720" data-duration="2.000" data-track-index="0" muted playsinline></video>
+        <video id="v12" class="clip" src="assets/clips/c12_VQRLujxTm3c_035_cover.mp4" data-start="29.720" data-duration="3.040" data-track-index="0" muted playsinline></video>
+        <video id="v13" class="clip" src="assets/clips/c13_VQRLujxTm3c_027_cover.mp4" data-start="32.760" data-duration="1.820" data-track-index="0" muted playsinline></video>
+        <video id="v14" class="clip" src="assets/clips/c14_tJbzMqJGH4k_038_cover.mp4" data-start="34.580" data-duration="1.820" data-track-index="0" muted playsinline></video>
+        <video id="v15" class="clip" src="assets/clips/c15_tJbzMqJGH4k_159_cover.mp4" data-start="36.400" data-duration="2.760" data-track-index="0" muted playsinline></video>
+      </div></div></div></div>
+      <div id="scrim-top"></div>
+      <div id="scrim-bot"></div>
+      <div id="glitch">
+        <div class="gb" id="gb0" style="height:55px;background:#19E3D1"></div>
+        <div class="gb" id="gb1" style="height:21px;background:#FF2E88"></div>
+        <div class="gb" id="gb2" style="height:28px;background:#19E3D1"></div>
+        <div class="gb" id="gb3" style="height:33px;background:#FF2E88"></div>
+        <div class="gb" id="gb4" style="height:11px;background:#19E3D1"></div>
+        <div class="gb" id="gb5" style="height:37px;background:#FF2E88"></div>
+        <div class="gb" id="gb6" style="height:23px;background:#19E3D1"></div>
+      </div>
+      <div id="leak"></div>
+      <div id="card-hook" data-composition-id="card-hook" data-composition-src="compositions/card-hook.html" data-start="0.000" data-duration="4.480" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:10"></div>
+      <div id="card-storage" data-composition-id="card-storage" data-composition-src="compositions/card-storage.html" data-start="4.480" data-duration="4.400" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:11"></div>
+      <div id="card-preload" data-composition-id="card-preload" data-composition-src="compositions/card-preload.html" data-start="8.880" data-duration="5.680" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:12"></div>
+      <div id="card-hours" data-composition-id="card-hours" data-composition-src="compositions/card-hours.html" data-start="14.560" data-duration="4.960" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:13"></div>
+      <div id="card-box" data-composition-id="card-box" data-composition-src="compositions/card-box.html" data-start="19.520" data-duration="3.440" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:14"></div>
+      <div id="card-dates" data-composition-id="card-dates" data-composition-src="compositions/card-dates.html" data-start="22.960" data-duration="2.760" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:15"></div>
+      <div id="card-unlock" data-composition-id="card-unlock" data-composition-src="compositions/card-unlock.html" data-start="25.720" data-duration="4.000" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:16"></div>
+      <div id="card-early" data-composition-id="card-early" data-composition-src="compositions/card-early.html" data-start="29.720" data-duration="3.040" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:17"></div>
+      <div id="card-bonus" data-composition-id="card-bonus" data-composition-src="compositions/card-bonus.html" data-start="32.760" data-duration="3.640" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:18"></div>
+      <div id="card-cta" data-composition-id="card-cta" data-composition-src="compositions/card-cta.html" data-start="36.400" data-duration="2.760" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:19"></div>
+      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="39.160" data-track-index="3" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index:30"></div>
+      <div id="chrome" data-composition-id="chrome" data-composition-src="compositions/chrome.html" data-start="0" data-duration="39.160" data-track-index="4" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:35"></div>
+      <div id="flash"></div>
+      <audio id="vo" class="clip" src="assets/audio/el/voice.mp3" data-start="0" data-track-index="5" data-volume="1"></audio>
+      <audio id="sfx00" class="clip" src="assets/sfx/impact-bass-1.mp3" data-start="0.033" data-duration="2.120" data-track-index="6" data-volume="0.5"></audio>
+      <audio id="sfx01" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="4.413" data-duration="0.570" data-track-index="7" data-volume="0.3"></audio>
+      <audio id="sfx02" class="clip" src="assets/sfx/typing.mp3" data-start="4.913" data-duration="1.500" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="sfx03" class="clip" src="assets/sfx/ping.mp3" data-start="5.963" data-duration="1.320" data-track-index="6" data-volume="0.3"></audio>
+      <audio id="sfx04" class="clip" src="assets/sfx/whoosh.mp3" data-start="8.753" data-duration="0.570" data-track-index="7" data-volume="0.3"></audio>
+      <audio id="sfx05" class="clip" src="assets/sfx/pop.mp3" data-start="13.193" data-duration="0.720" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="sfx06" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="14.473" data-duration="0.570" data-track-index="6" data-volume="0.3"></audio>
+      <audio id="sfx07" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="14.833" data-duration="0.570" data-track-index="7" data-volume="0.3"></audio>
+      <audio id="sfx08" class="clip" src="assets/sfx/whoosh.mp3" data-start="16.833" data-duration="0.570" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="sfx09" class="clip" src="assets/sfx/glitch-1.mp3" data-start="19.453" data-duration="0.600" data-track-index="6" data-volume="0.22"></audio>
+      <audio id="sfx10" class="clip" src="assets/sfx/pop.mp3" data-start="21.593" data-duration="0.720" data-track-index="7" data-volume="0.3"></audio>
+      <audio id="sfx11" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="22.893" data-duration="0.570" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="sfx12" class="clip" src="assets/sfx/riser.mp3" data-start="24.253" data-duration="1.750" data-media-start="1.970" data-track-index="6" data-volume="0.35"></audio>
+      <audio id="sfx13" class="clip" src="assets/sfx/pop.mp3" data-start="25.073" data-duration="0.720" data-track-index="7" data-volume="0.3"></audio>
+      <audio id="sfx14" class="clip" src="assets/sfx/whoosh.mp3" data-start="25.593" data-duration="0.570" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="sfx15" class="clip" src="assets/sfx/impact-bass-2.mp3" data-start="25.753" data-duration="2.590" data-track-index="6" data-volume="0.5"></audio>
+      <audio id="sfx16" class="clip" src="assets/sfx/click-soft.mp3" data-start="26.503" data-duration="0.370" data-track-index="7" data-volume="0.25"></audio>
+      <audio id="sfx17" class="clip" src="assets/sfx/click-soft.mp3" data-start="26.743" data-duration="0.370" data-track-index="8" data-volume="0.25"></audio>
+      <audio id="sfx18" class="clip" src="assets/sfx/glitch-1.mp3" data-start="29.653" data-duration="0.600" data-track-index="6" data-volume="0.22"></audio>
+      <audio id="sfx19" class="clip" src="assets/sfx/impact-bass-1.mp3" data-start="30.013" data-duration="2.120" data-track-index="7" data-volume="0.5"></audio>
+      <audio id="sfx20" class="clip" src="assets/sfx/whoosh.mp3" data-start="32.613" data-duration="0.570" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="sfx21" class="clip" src="assets/sfx/whoosh.mp3" data-start="36.273" data-duration="0.570" data-track-index="6" data-volume="0.3"></audio>
+      <audio id="sfx22" class="clip" src="assets/sfx/impact-bass-2.mp3" data-start="36.433" data-duration="2.590" data-track-index="7" data-volume="0.5"></audio>
+      <audio id="sfx23" class="clip" src="assets/sfx/pop.mp3" data-start="36.783" data-duration="0.720" data-track-index="8" data-volume="0.3"></audio>
+      <audio id="bgm" class="clip" src="assets/audio/bgm.mp3" data-start="0" data-duration="39.160" data-media-start="0.000" data-track-index="9" data-volume="1" data-automation='{"version":1,"lanes":[{"target":"volume","points":[{"t":0.0,"v":0.11},{"t":8.56,"v":0.11},{"t":8.81,"v":0.3},{"t":8.84,"v":0.3},{"t":8.96,"v":0.11},{"t":14.24,"v":0.11},{"t":14.49,"v":0.3},{"t":14.52,"v":0.3},{"t":14.64,"v":0.11},{"t":19.2,"v":0.11},{"t":19.45,"v":0.3},{"t":19.48,"v":0.3},{"t":19.6,"v":0.11},{"t":38.16,"v":0.11},{"t":38.41,"v":0.3},{"t":39.16,"v":0.0}]}]}'></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.set("#cam", { x: 0, y: 0, rotation: 0, scale: 1.06 }, 0);  // headroom so shakes never show an edge
+      tl.set("#whip", { x: 0, scale: 1 }, 0);
+      tl.set("#zoom", { scale: 1 }, 0);
+      tl.set(".gb", { opacity: 0 }, 0);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 2.240, ease: "none", immediateRender: false }, 0.000);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 2.240, ease: "none", immediateRender: false }, 2.240);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 1.893, ease: "none", immediateRender: false }, 8.880);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 1.893, ease: "none", immediateRender: false }, 10.773);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 1.893, ease: "none", immediateRender: false }, 12.666);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 1.653, ease: "none", immediateRender: false }, 14.560);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 1.653, ease: "none", immediateRender: false }, 16.213);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 1.653, ease: "none", immediateRender: false }, 17.866);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 1.720, ease: "none", immediateRender: false }, 19.520);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 1.720, ease: "none", immediateRender: false }, 21.240);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 2.000, ease: "none", immediateRender: false }, 25.720);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 2.000, ease: "none", immediateRender: false }, 27.720);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 3.040, ease: "none", immediateRender: false }, 29.720);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 1.820, ease: "none", immediateRender: false }, 32.760);
+    tl.fromTo("#stage", { scale: 1.0 }, { scale: 1.07, duration: 1.820, ease: "none", immediateRender: false }, 34.580);
+    tl.fromTo("#stage", { scale: 1.08 }, { scale: 1.02, duration: 2.760, ease: "none", immediateRender: false }, 36.400);
+    tl.fromTo("#whip", { x: 0, scale: 1 }, { x: 130, scale: 1.25, duration: 0.12, ease: "power3.in", immediateRender: false }, 2.120);
+    tl.fromTo("#whip", { x: -130, scale: 1.25 }, { x: 0, scale: 1, duration: 0.24, ease: "expo.out", immediateRender: false }, 2.240);
+    tl.set("#cam", { x: 25.8, y: 14.7, rotation: 0.84 }, 0.033);
+    tl.set("#cam", { x: -22.0, y: -5.8, rotation: -0.13 }, 0.067);
+    tl.set("#cam", { x: 17.5, y: -2.3, rotation: -0.45 }, 0.100);
+    tl.set("#cam", { x: -12.7, y: 7.2, rotation: 0.59 }, 0.133);
+    tl.set("#cam", { x: 8.3, y: -8.4, rotation: -0.34 }, 0.167);
+    tl.set("#cam", { x: -4.7, y: 6.6, rotation: -0.03 }, 0.200);
+    tl.set("#cam", { x: 1.9, y: -3.5, rotation: 0.23 }, 0.233);
+    tl.set("#cam", { x: -0.0, y: 0.7, rotation: -0.21 }, 0.267);
+    tl.set("#cam", { x: -0.9, y: 1.0, rotation: 0.08 }, 0.300);
+    tl.set("#cam", { x: 1.1, y: -1.4, rotation: 0.03 }, 0.333);
+    tl.set("#cam", { x: -0.9, y: 1.0, rotation: -0.05 }, 0.367);
+    tl.set("#cam", { x: 0.5, y: -0.4, rotation: 0.02 }, 0.400);
+    tl.set("#cam", { x: -0.1, y: 0.1, rotation: -0.00 }, 0.433);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 0.467);
+    tl.fromTo("#flash", { opacity: 0.6, backgroundColor: "#FFFFFF" }, { opacity: 0, backgroundColor: "#FFFFFF", duration: 0.18, ease: "power2.out", immediateRender: false }, 4.480);
+    tl.fromTo("#whip", { scale: 1 }, { scale: 1.38, duration: 0.15, ease: "power3.in", immediateRender: false }, 8.730);
+    tl.fromTo("#whip", { scale: 1.38 }, { scale: 1, duration: 0.34, ease: "expo.out", immediateRender: false }, 8.880);
+    tl.fromTo("#flash", { opacity: 0.7, backgroundColor: "#FFFFFF" }, { opacity: 0, backgroundColor: "#FFFFFF", duration: 0.2, ease: "power2.out", immediateRender: false }, 8.880);
+    tl.fromTo("#whip", { x: 0, scale: 1 }, { x: 130, scale: 1.25, duration: 0.12, ease: "power3.in", immediateRender: false }, 10.653);
+    tl.fromTo("#whip", { x: -130, scale: 1.25 }, { x: 0, scale: 1, duration: 0.24, ease: "expo.out", immediateRender: false }, 10.773);
+    tl.fromTo("#whip", { scale: 1.08 }, { scale: 1, duration: 0.28, ease: "expo.out", immediateRender: false }, 12.666);
+    tl.fromTo("#whip", { x: 0, scale: 1 }, { x: 130, scale: 1.25, duration: 0.12, ease: "power3.in", immediateRender: false }, 14.440);
+    tl.fromTo("#whip", { x: -130, scale: 1.25 }, { x: 0, scale: 1, duration: 0.24, ease: "expo.out", immediateRender: false }, 14.560);
+    tl.fromTo("#whip", { scale: 1.08 }, { scale: 1, duration: 0.28, ease: "expo.out", immediateRender: false }, 16.213);
+    tl.fromTo("#whip", { x: 0, scale: 1 }, { x: 130, scale: 1.25, duration: 0.12, ease: "power3.in", immediateRender: false }, 17.746);
+    tl.fromTo("#whip", { x: -130, scale: 1.25 }, { x: 0, scale: 1, duration: 0.24, ease: "expo.out", immediateRender: false }, 17.866);
+    tl.set("#whip", { x: 4.4, scale: 1.040 }, 19.420);
+    tl.set("#gb0", { y: 1784, x: 55, opacity: 0 }, 19.420);
+    tl.set("#gb1", { y: 830, x: 88, opacity: 0.6 }, 19.420);
+    tl.set("#gb2", { y: 1430, x: -100, opacity: 0.6 }, 19.420);
+    tl.set("#gb3", { y: 1521, x: -45, opacity: 0 }, 19.420);
+    tl.set("#gb4", { y: 1714, x: 94, opacity: 0.6 }, 19.420);
+    tl.set("#gb5", { y: 1626, x: 98, opacity: 0 }, 19.420);
+    tl.set("#gb6", { y: 575, x: -109, opacity: 0.6 }, 19.420);
+    tl.set("#whip", { x: -17.7, scale: 1.046 }, 19.453);
+    tl.set("#gb0", { y: 931, x: -3, opacity: 0 }, 19.453);
+    tl.set("#gb1", { y: 736, x: -15, opacity: 0 }, 19.453);
+    tl.set("#gb2", { y: 1734, x: 54, opacity: 0 }, 19.453);
+    tl.set("#gb3", { y: 616, x: -106, opacity: 0.6 }, 19.453);
+    tl.set("#gb4", { y: 1178, x: 80, opacity: 0.6 }, 19.453);
+    tl.set("#gb5", { y: 445, x: -79, opacity: 0.6 }, 19.453);
+    tl.set("#gb6", { y: 379, x: 7, opacity: 0.6 }, 19.453);
+    tl.set("#whip", { x: -28.5, scale: 1.032 }, 19.487);
+    tl.set("#gb0", { y: 1737, x: 21, opacity: 0 }, 19.487);
+    tl.set("#gb1", { y: 1228, x: -88, opacity: 0.6 }, 19.487);
+    tl.set("#gb2", { y: 1042, x: -35, opacity: 0.6 }, 19.487);
+    tl.set("#gb3", { y: 1284, x: -108, opacity: 0 }, 19.487);
+    tl.set("#gb4", { y: 103, x: 54, opacity: 0 }, 19.487);
+    tl.set("#gb5", { y: 1766, x: 5, opacity: 0.6 }, 19.487);
+    tl.set("#gb6", { y: 740, x: -62, opacity: 0.6 }, 19.487);
+    tl.set("#whip", { x: -31.8, scale: 1.080 }, 19.520);
+    tl.set("#gb0", { y: 247, x: -103, opacity: 0 }, 19.520);
+    tl.set("#gb1", { y: 1723, x: 9, opacity: 0.6 }, 19.520);
+    tl.set("#gb2", { y: 1122, x: 48, opacity: 0.6 }, 19.520);
+    tl.set("#gb3", { y: 677, x: 100, opacity: 0 }, 19.520);
+    tl.set("#gb4", { y: 649, x: 59, opacity: 0.6 }, 19.520);
+    tl.set("#gb5", { y: 634, x: 96, opacity: 0 }, 19.520);
+    tl.set("#gb6", { y: 45, x: -42, opacity: 0 }, 19.520);
+    tl.set("#whip", { x: -24.1, scale: 1.080 }, 19.553);
+    tl.set("#gb0", { y: 635, x: -25, opacity: 0 }, 19.553);
+    tl.set("#gb1", { y: 275, x: -94, opacity: 0 }, 19.553);
+    tl.set("#gb2", { y: 1746, x: 18, opacity: 0.6 }, 19.553);
+    tl.set("#gb3", { y: 1366, x: 92, opacity: 0.6 }, 19.553);
+    tl.set("#gb4", { y: 1221, x: -98, opacity: 0.6 }, 19.553);
+    tl.set("#gb5", { y: 735, x: 65, opacity: 0.6 }, 19.553);
+    tl.set("#gb6", { y: 48, x: -65, opacity: 0 }, 19.553);
+    tl.set("#whip", { x: 18.8, scale: 1.062 }, 19.587);
+    tl.set("#gb0", { y: 1101, x: 107, opacity: 0.6 }, 19.587);
+    tl.set("#gb1", { y: 446, x: 99, opacity: 0.6 }, 19.587);
+    tl.set("#gb2", { y: 929, x: 7, opacity: 0.6 }, 19.587);
+    tl.set("#gb3", { y: 794, x: -78, opacity: 0.6 }, 19.587);
+    tl.set("#gb4", { y: 1276, x: 10, opacity: 0 }, 19.587);
+    tl.set("#gb5", { y: 1171, x: -3, opacity: 0.6 }, 19.587);
+    tl.set("#gb6", { y: 401, x: -5, opacity: 0 }, 19.587);
+    tl.set("#whip", { x: -12.7, scale: 1.045 }, 19.620);
+    tl.set("#gb0", { y: 1705, x: 38, opacity: 0.6 }, 19.620);
+    tl.set("#gb1", { y: 1736, x: 70, opacity: 0 }, 19.620);
+    tl.set("#gb2", { y: 200, x: 13, opacity: 0 }, 19.620);
+    tl.set("#gb3", { y: 1553, x: -72, opacity: 0 }, 19.620);
+    tl.set("#gb4", { y: 412, x: -60, opacity: 0.6 }, 19.620);
+    tl.set("#gb5", { y: 1613, x: 10, opacity: 0 }, 19.620);
+    tl.set("#gb6", { y: 655, x: 39, opacity: 0 }, 19.620);
+    tl.set("#whip", { x: -16.6, scale: 1.040 }, 19.653);
+    tl.set("#gb0", { y: 1706, x: 13, opacity: 0 }, 19.653);
+    tl.set("#gb1", { y: 722, x: -42, opacity: 0 }, 19.653);
+    tl.set("#gb2", { y: 450, x: -91, opacity: 0.6 }, 19.653);
+    tl.set("#gb3", { y: 1300, x: 84, opacity: 0 }, 19.653);
+    tl.set("#gb4", { y: 1136, x: -108, opacity: 0 }, 19.653);
+    tl.set("#gb5", { y: 1639, x: -26, opacity: 0 }, 19.653);
+    tl.set("#gb6", { y: 1416, x: -20, opacity: 0 }, 19.653);
+    tl.set("#whip", { x: 0, scale: 1 }, 19.687);
+    tl.set(".gb", { opacity: 0 }, 19.687);
+    tl.fromTo("#flash", { opacity: 0.4, backgroundColor: "#19E3D1" }, { opacity: 0, backgroundColor: "#19E3D1", duration: 0.16, ease: "power2.out", immediateRender: false }, 19.520);
+    tl.fromTo("#whip", { x: 0, scale: 1 }, { x: 130, scale: 1.25, duration: 0.12, ease: "power3.in", immediateRender: false }, 21.120);
+    tl.fromTo("#whip", { x: -130, scale: 1.25 }, { x: 0, scale: 1, duration: 0.24, ease: "expo.out", immediateRender: false }, 21.240);
+    tl.fromTo("#flash", { opacity: 0.6, backgroundColor: "#FFFFFF" }, { opacity: 0, backgroundColor: "#FFFFFF", duration: 0.18, ease: "power2.out", immediateRender: false }, 22.960);
+    tl.fromTo("#whip", { scale: 1 }, { scale: 1.38, duration: 0.15, ease: "power3.in", immediateRender: false }, 25.570);
+    tl.fromTo("#whip", { scale: 1.38 }, { scale: 1, duration: 0.34, ease: "expo.out", immediateRender: false }, 25.720);
+    tl.fromTo("#flash", { opacity: 0.7, backgroundColor: "#FFFFFF" }, { opacity: 0, backgroundColor: "#FFFFFF", duration: 0.2, ease: "power2.out", immediateRender: false }, 25.720);
+    tl.fromTo("#whip", { x: 0, scale: 1 }, { x: 130, scale: 1.25, duration: 0.12, ease: "power3.in", immediateRender: false }, 27.600);
+    tl.fromTo("#whip", { x: -130, scale: 1.25 }, { x: 0, scale: 1, duration: 0.24, ease: "expo.out", immediateRender: false }, 27.720);
+    tl.set("#cam", { x: -16.1, y: 17.6, rotation: 0.66 }, 25.740);
+    tl.set("#cam", { x: 17.5, y: -14.8, rotation: 0.11 }, 25.773);
+    tl.set("#cam", { x: -17.0, y: 8.5, rotation: -0.59 }, 25.807);
+    tl.set("#cam", { x: 15.1, y: -1.6, rotation: 0.58 }, 25.840);
+    tl.set("#cam", { x: -12.4, y: -3.5, rotation: -0.23 }, 25.873);
+    tl.set("#cam", { x: 9.4, y: 5.7, rotation: -0.13 }, 25.907);
+    tl.set("#cam", { x: -6.4, y: -5.3, rotation: 0.27 }, 25.940);
+    tl.set("#cam", { x: 3.9, y: 3.4, rotation: -0.19 }, 25.973);
+    tl.set("#cam", { x: -2.0, y: -1.3, rotation: 0.04 }, 26.007);
+    tl.set("#cam", { x: 0.7, y: -0.1, rotation: 0.05 }, 26.040);
+    tl.set("#cam", { x: -0.1, y: 0.6, rotation: -0.05 }, 26.073);
+    tl.set("#cam", { x: -0.1, y: -0.4, rotation: 0.02 }, 26.107);
+    tl.set("#cam", { x: 0.1, y: 0.1, rotation: -0.00 }, 26.140);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 26.173);
+    tl.set("#whip", { x: 13.6, scale: 1.080 }, 29.620);
+    tl.set("#gb0", { y: 881, x: -46, opacity: 0.6 }, 29.620);
+    tl.set("#gb1", { y: 1375, x: 52, opacity: 0.6 }, 29.620);
+    tl.set("#gb2", { y: 146, x: -62, opacity: 0.6 }, 29.620);
+    tl.set("#gb3", { y: 1621, x: 23, opacity: 0 }, 29.620);
+    tl.set("#gb4", { y: 141, x: -101, opacity: 0.6 }, 29.620);
+    tl.set("#gb5", { y: 544, x: -55, opacity: 0 }, 29.620);
+    tl.set("#gb6", { y: 751, x: -90, opacity: 0.6 }, 29.620);
+    tl.set("#whip", { x: 1.1, scale: 1.033 }, 29.653);
+    tl.set("#gb0", { y: 718, x: 47, opacity: 0 }, 29.653);
+    tl.set("#gb1", { y: 1389, x: 54, opacity: 0 }, 29.653);
+    tl.set("#gb2", { y: 1431, x: 62, opacity: 0 }, 29.653);
+    tl.set("#gb3", { y: 895, x: 48, opacity: 0.6 }, 29.653);
+    tl.set("#gb4", { y: 1446, x: 102, opacity: 0 }, 29.653);
+    tl.set("#gb5", { y: 628, x: 28, opacity: 0 }, 29.653);
+    tl.set("#gb6", { y: 441, x: -108, opacity: 0 }, 29.653);
+    tl.set("#whip", { x: 32.4, scale: 1.047 }, 29.687);
+    tl.set("#gb0", { y: 831, x: 101, opacity: 0 }, 29.687);
+    tl.set("#gb1", { y: 137, x: 1, opacity: 0.6 }, 29.687);
+    tl.set("#gb2", { y: 345, x: -100, opacity: 0.6 }, 29.687);
+    tl.set("#gb3", { y: 1355, x: 98, opacity: 0 }, 29.687);
+    tl.set("#gb4", { y: 183, x: 99, opacity: 0 }, 29.687);
+    tl.set("#gb5", { y: 1423, x: -9, opacity: 0.6 }, 29.687);
+    tl.set("#gb6", { y: 168, x: -60, opacity: 0.6 }, 29.687);
+    tl.set("#whip", { x: 15.6, scale: 1.048 }, 29.720);
+    tl.set("#gb0", { y: 497, x: -99, opacity: 0.6 }, 29.720);
+    tl.set("#gb1", { y: 1564, x: -103, opacity: 0 }, 29.720);
+    tl.set("#gb2", { y: 863, x: 103, opacity: 0.6 }, 29.720);
+    tl.set("#gb3", { y: 1404, x: 97, opacity: 0 }, 29.720);
+    tl.set("#gb4", { y: 1015, x: -37, opacity: 0.6 }, 29.720);
+    tl.set("#gb5", { y: 1749, x: 16, opacity: 0.6 }, 29.720);
+    tl.set("#gb6", { y: 23, x: 45, opacity: 0.6 }, 29.720);
+    tl.set("#whip", { x: 31.9, scale: 1.079 }, 29.753);
+    tl.set("#gb0", { y: 789, x: -56, opacity: 0 }, 29.753);
+    tl.set("#gb1", { y: 836, x: -16, opacity: 0.6 }, 29.753);
+    tl.set("#gb2", { y: 1260, x: 22, opacity: 0.6 }, 29.753);
+    tl.set("#gb3", { y: 1210, x: 95, opacity: 0 }, 29.753);
+    tl.set("#gb4", { y: 1799, x: 40, opacity: 0.6 }, 29.753);
+    tl.set("#gb5", { y: 950, x: -28, opacity: 0.6 }, 29.753);
+    tl.set("#gb6", { y: 796, x: 70, opacity: 0.6 }, 29.753);
+    tl.set("#whip", { x: 1.6, scale: 1.033 }, 29.787);
+    tl.set("#gb0", { y: 581, x: -37, opacity: 0.6 }, 29.787);
+    tl.set("#gb1", { y: 1454, x: 20, opacity: 0.6 }, 29.787);
+    tl.set("#gb2", { y: 938, x: 29, opacity: 0.6 }, 29.787);
+    tl.set("#gb3", { y: 1564, x: 55, opacity: 0.6 }, 29.787);
+    tl.set("#gb4", { y: 35, x: -27, opacity: 0 }, 29.787);
+    tl.set("#gb5", { y: 905, x: -28, opacity: 0.6 }, 29.787);
+    tl.set("#gb6", { y: 1199, x: 23, opacity: 0 }, 29.787);
+    tl.set("#whip", { x: -10.7, scale: 1.055 }, 29.820);
+    tl.set("#gb0", { y: 125, x: 49, opacity: 0.6 }, 29.820);
+    tl.set("#gb1", { y: 218, x: 91, opacity: 0.6 }, 29.820);
+    tl.set("#gb2", { y: 6, x: 82, opacity: 0.6 }, 29.820);
+    tl.set("#gb3", { y: 1093, x: -93, opacity: 0 }, 29.820);
+    tl.set("#gb4", { y: 657, x: -38, opacity: 0.6 }, 29.820);
+    tl.set("#gb5", { y: 1513, x: -20, opacity: 0 }, 29.820);
+    tl.set("#gb6", { y: 869, x: -73, opacity: 0.6 }, 29.820);
+    tl.set("#whip", { x: -4.1, scale: 1.062 }, 29.853);
+    tl.set("#gb0", { y: 1096, x: -73, opacity: 0 }, 29.853);
+    tl.set("#gb1", { y: 1173, x: 74, opacity: 0.6 }, 29.853);
+    tl.set("#gb2", { y: 186, x: -78, opacity: 0.6 }, 29.853);
+    tl.set("#gb3", { y: 1517, x: 17, opacity: 0.6 }, 29.853);
+    tl.set("#gb4", { y: 1581, x: -66, opacity: 0 }, 29.853);
+    tl.set("#gb5", { y: 1035, x: 92, opacity: 0.6 }, 29.853);
+    tl.set("#gb6", { y: 192, x: -105, opacity: 0.6 }, 29.853);
+    tl.set("#whip", { x: 0, scale: 1 }, 29.887);
+    tl.set(".gb", { opacity: 0 }, 29.887);
+    tl.fromTo("#flash", { opacity: 0.4, backgroundColor: "#19E3D1" }, { opacity: 0, backgroundColor: "#19E3D1", duration: 0.16, ease: "power2.out", immediateRender: false }, 29.720);
+    tl.set("#cam", { x: 22.3, y: 14.5, rotation: 0.99 }, 29.740);
+    tl.set("#cam", { x: -15.8, y: -5.6, rotation: -0.65 }, 29.773);
+    tl.set("#cam", { x: 9.7, y: -2.5, rotation: 0.02 }, 29.807);
+    tl.set("#cam", { x: -4.7, y: 7.3, rotation: 0.43 }, 29.840);
+    tl.set("#cam", { x: 0.8, y: -8.4, rotation: -0.48 }, 29.873);
+    tl.set("#cam", { x: 1.7, y: 6.6, rotation: 0.23 }, 29.907);
+    tl.set("#cam", { x: -3.0, y: -3.5, rotation: 0.06 }, 29.940);
+    tl.set("#cam", { x: 3.4, y: 0.6, rotation: -0.18 }, 29.973);
+    tl.set("#cam", { x: -3.0, y: 1.1, rotation: 0.14 }, 30.007);
+    tl.set("#cam", { x: 2.2, y: -1.4, rotation: -0.04 }, 30.040);
+    tl.set("#cam", { x: -1.4, y: 1.0, rotation: -0.02 }, 30.073);
+    tl.set("#cam", { x: 0.6, y: -0.4, rotation: 0.02 }, 30.107);
+    tl.set("#cam", { x: -0.1, y: 0.1, rotation: -0.01 }, 30.140);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 30.173);
+    tl.fromTo("#leak", { xPercent: -70, opacity: 0 }, { xPercent: 40, opacity: 0.95, duration: 0.3, ease: "power2.in", immediateRender: false }, 32.560);
+    tl.fromTo("#leak", { xPercent: 40, opacity: 0.95 }, { xPercent: 110, opacity: 0, duration: 0.5, ease: "power2.out", immediateRender: false }, 32.860);
+    tl.fromTo("#whip", { scale: 1.14 }, { scale: 1, duration: 0.4, ease: "expo.out", immediateRender: false }, 32.760);
+    tl.fromTo("#whip", { scale: 1.08 }, { scale: 1, duration: 0.28, ease: "expo.out", immediateRender: false }, 34.580);
+    tl.fromTo("#whip", { scale: 1 }, { scale: 1.38, duration: 0.15, ease: "power3.in", immediateRender: false }, 36.250);
+    tl.fromTo("#whip", { scale: 1.38 }, { scale: 1, duration: 0.34, ease: "expo.out", immediateRender: false }, 36.400);
+    tl.fromTo("#flash", { opacity: 0.7, backgroundColor: "#FFFFFF" }, { opacity: 0, backgroundColor: "#FFFFFF", duration: 0.2, ease: "power2.out", immediateRender: false }, 36.400);
+    tl.set("#cam", { x: -25.0, y: -14.0, rotation: -0.54 }, 36.420);
+    tl.set("#cam", { x: 19.2, y: 15.4, rotation: -0.22 }, 36.453);
+    tl.set("#cam", { x: -13.5, y: -11.9, rotation: 0.64 }, 36.487);
+    tl.set("#cam", { x: 8.3, y: 6.0, rotation: -0.55 }, 36.520);
+    tl.set("#cam", { x: -4.0, y: -0.3, rotation: 0.16 }, 36.553);
+    tl.set("#cam", { x: 0.8, y: -3.5, rotation: 0.18 }, 36.587);
+    tl.set("#cam", { x: 1.2, y: 4.7, rotation: -0.28 }, 36.620);
+    tl.set("#cam", { x: -2.2, y: -3.9, rotation: 0.18 }, 36.653);
+    tl.set("#cam", { x: 2.3, y: 2.2, rotation: -0.02 }, 36.687);
+    tl.set("#cam", { x: -1.9, y: -0.6, rotation: -0.06 }, 36.720);
+    tl.set("#cam", { x: 1.2, y: -0.2, rotation: 0.05 }, 36.753);
+    tl.set("#cam", { x: -0.6, y: 0.3, rotation: -0.02 }, 36.787);
+    tl.set("#cam", { x: 0.2, y: -0.1, rotation: -0.00 }, 36.820);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 36.853);
+    tl.fromTo("#zoom", { scale: 1.2 }, { scale: 1.13, duration: 0.22, ease: "expo.out", immediateRender: false }, 13.160);
+    tl.set("#zoom", { scale: 1 }, 14.560);
+    tl.set("#cam", { x: 4.1, y: -1.5, rotation: -0.41 }, 13.160);
+    tl.set("#cam", { x: -4.7, y: -2.2, rotation: 0.34 }, 13.193);
+    tl.set("#cam", { x: 4.0, y: 3.0, rotation: -0.11 }, 13.227);
+    tl.set("#cam", { x: -2.6, y: -2.1, rotation: -0.04 }, 13.260);
+    tl.set("#cam", { x: 1.3, y: 0.8, rotation: 0.05 }, 13.293);
+    tl.set("#cam", { x: -0.3, y: -0.1, rotation: -0.01 }, 13.327);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 13.360);
+    tl.fromTo("#zoom", { scale: 1.2 }, { scale: 1.13, duration: 0.22, ease: "expo.out", immediateRender: false }, 22.120);
+    tl.set("#zoom", { scale: 1 }, 25.720);
+    tl.set("#cam", { x: -11.5, y: -6.4, rotation: 0.44 }, 22.120);
+    tl.set("#cam", { x: 8.3, y: 1.7, rotation: -0.08 }, 22.153);
+    tl.set("#cam", { x: -5.2, y: 0.9, rotation: -0.12 }, 22.187);
+    tl.set("#cam", { x: 2.7, y: -1.5, rotation: 0.12 }, 22.220);
+    tl.set("#cam", { x: -1.0, y: 0.9, rotation: -0.04 }, 22.253);
+    tl.set("#cam", { x: 0.2, y: -0.2, rotation: 0.00 }, 22.287);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 22.320);
+    tl.fromTo("#zoom", { scale: 1.2 }, { scale: 1.13, duration: 0.22, ease: "expo.out", immediateRender: false }, 28.200);
+    tl.set("#zoom", { scale: 1 }, 29.720);
+    tl.set("#cam", { x: 11.4, y: -5.0, rotation: -0.34 }, 28.200);
+    tl.set("#cam", { x: -8.3, y: 5.4, rotation: 0.35 }, 28.233);
+    tl.set("#cam", { x: 5.3, y: -3.7, rotation: -0.15 }, 28.267);
+    tl.set("#cam", { x: -2.7, y: 1.6, rotation: -0.02 }, 28.300);
+    tl.set("#cam", { x: 1.1, y: -0.3, rotation: 0.05 }, 28.333);
+    tl.set("#cam", { x: -0.2, y: -0.1, rotation: -0.01 }, 28.367);
+    tl.set("#cam", { x: 0, y: 0, rotation: 0 }, 28.400);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

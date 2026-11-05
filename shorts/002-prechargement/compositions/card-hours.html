@@ -1,0 +1,28 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-hours-wrap { position:absolute; left:60px; width:900px; top:310px; height:780px; display:flex; flex-direction:column; justify-content:flex-start; gap:30px; }
+    #card-hours-wrap .tag { position:relative; align-self:flex-start; font-size:97px; line-height:1; text-transform:uppercase; padding:10px 34px 4px 44px;
+      background:var(--night); color:var(--ink); box-shadow:10px 10px 0 var(--pink); white-space:nowrap; }
+    #card-hours-wrap .tag .bar { position:absolute; left:0; top:0; bottom:0; width:14px; background:var(--teal); }
+    #card-hours-wrap .tag.r { align-self:flex-end; margin-right:12px; box-shadow:-10px 10px 0 var(--orange); }
+  </style>
+  <div id="root" data-composition-id="card-hours" data-width="1080" data-height="1920">
+    <div class="wrap" id="card-hours-wrap">
+      <div class="tag l" id="card-hours-n0"><span class="bar"></span>PS5 · 00H</div>
+      <div class="tag r" id="card-hours-n1"><span class="bar"></span>XBOX · 01H</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-hours-n0", { opacity: 0, x: -260, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.34, ease: "expo.out" }, 0.240);
+    tl.fromTo("#card-hours-n1", { opacity: 0, x: 260, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.34, ease: "expo.out" }, 2.240);
+    tl.to("#card-hours-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 4.700);
+
+    window.__timelines["card-hours"] = tl;
+  </script>
+</template>

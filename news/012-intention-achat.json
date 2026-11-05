@@ -1,0 +1,16 @@
+{
+ "title": "Record : 29 % des joueurs américains comptent acheter GTA 6",
+ "status": "todo",
+ "type": "presse",
+ "date": "2026-11-04",
+ "facts": [
+  "Circana (28 octobre) : 29 % des joueurs américains console et PC prévoient d'acheter GTA 6, du jamais-vu dans son suivi PlayerPulse.",
+  "YouGov France (29 octobre) : 16 % des Français ont vu récemment une pub GTA (3,7 fois plus qu'il y a un an), 14 % en ont parlé (×2,2)."
+ ],
+ "sources": [
+  "https://www.menow.fr/gta-6-nest-pas-encore-sorti-quil-bat-deja-un-record-chez-circana/",
+  "https://yougov.com/fr-fr/articles/55841-gta-vi-lattention-des-francais"
+ ],
+ "angle": "MD : barres de pourcentage US vs France.",
+ "notes": "Vérifier le chiffre Circana à la source (Mat Piscatella) avant production."
+}

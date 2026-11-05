@@ -1,0 +1,33 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-place-wrap { position:absolute; left:70px; right:70px; top:320px; }
+    #card-place-kicker { font-size:44px; color:var(--teal); letter-spacing:.06em; display:flex; align-items:center; gap:16px; }
+    #card-place-kicker .pin { width:34px; height:34px; border-radius:50% 50% 50% 0; background:var(--pink); transform:rotate(-45deg); display:inline-block; }
+    #card-place-title { margin-top:10px; font-size:170px; line-height:.88; text-transform:uppercase;
+      filter:drop-shadow(0 8px 0 var(--night)); }
+    #card-place-title .w { display:inline-block; background:linear-gradient(180deg,var(--yellow),var(--orange) 55%,var(--pink));
+      -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; padding:0 4px; }
+    #card-place-sub { margin-top:18px; font-family:'Inter',sans-serif; font-weight:900; font-size:46px; text-shadow:0 4px 18px rgba(0,0,0,.8); }
+  </style>
+  <div id="root" data-composition-id="card-place" data-width="1080" data-height="1920" data-layout-allow-overflow>
+    <div class="wrap" id="card-place-wrap">
+      <div class="kicker" id="card-place-kicker"><span class="pin"></span>ÉTAT DE LEONIDA</div>
+      <div class="title" id="card-place-title"><span class="w">Vice</span> <span class="w">City</span> </div>
+      <div class="sub" id="card-place-sub">La ville star du jeu</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-place-kicker", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3, ease: "expo.out" }, 0.0);
+    tl.fromTo("#card-place-title .w", { opacity: 0, y: 60, filter: "blur(8px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.38, stagger: 0.1, ease: "expo.out" }, 0.1);
+    tl.fromTo("#card-place-sub", { opacity: 0 }, { opacity: 1, duration: 0.25, ease: "power2.out" }, 0.55);
+    tl.to("#card-place-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 2.759);
+
+    window.__timelines["card-place"] = tl;
+  </script>
+</template>

@@ -1,0 +1,27 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-cta-wrap { position:absolute; left:40px; right:40px; top:380px; text-align:center; }
+    #card-cta-title { font-size:170px; line-height:.9; text-transform:uppercase; color:var(--yellow);
+      -webkit-text-stroke:7px var(--night); paint-order:stroke fill; text-shadow:10px 10px 0 var(--pink); }
+    #card-cta-sub { margin-top:30px; display:inline-block; font-family:'Inter',sans-serif; font-weight:900; font-size:52px;
+      background:var(--ink); color:var(--night); padding:16px 30px; border-radius:16px; }
+  </style>
+  <div id="root" data-composition-id="card-cta" data-width="1080" data-height="1920" data-layout-allow-overflow>
+    <div class="wrap" id="card-cta-wrap">
+      <div class="title" id="card-cta-title">Day one&nbsp;?</div>
+      <div class="sub" id="card-cta-sub">Dis-le en commentaire</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-cta-title", { opacity: 0, scale: 0.7, rotation: -4 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.5, ease: "back.out(1.5)" }, 0.0);
+    tl.fromTo("#card-cta-sub", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.35, ease: "expo.out" }, 0.35);
+
+    window.__timelines["card-cta"] = tl;
+  </script>
+</template>

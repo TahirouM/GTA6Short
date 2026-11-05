@@ -1,0 +1,39 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-unlock-wrap { position:absolute; left:60px; width:900px; top:310px; height:780px; text-align:center; }
+    #card-unlock-label { display:inline-block; font-size:64px; color:var(--ink); background:var(--pink); padding:10px 28px 4px; transform:rotate(-2deg); }
+    #card-unlock-clock { margin-top:26px; display:inline-flex; align-items:center; gap:6px; padding:18px 30px; border-radius:28px;
+      background:rgba(11,6,20,.82); border:5px solid var(--teal); box-shadow:0 0 60px rgba(25,227,209,.35); }
+    #card-unlock-clock .dg { display:inline-block; height:220px; overflow:hidden; font-size:220px; line-height:220px; width:150px; }
+    #card-unlock-clock .strip { display:flex; flex-direction:column; }
+    #card-unlock-clock .strip b { display:block; height:220px; font-weight:400; color:var(--yellow); }
+    #card-unlock-clock .sep { font-size:190px; line-height:220px; color:var(--teal); }
+    #card-unlock-sub { margin-top:22px; font-family:'Inter',sans-serif; font-weight:900; font-size:50px; letter-spacing:.06em; text-transform:uppercase;
+      text-shadow:0 4px 18px rgba(0,0,0,.8); }
+  </style>
+  <div id="root" data-composition-id="card-unlock" data-width="1080" data-height="1920">
+    <div class="wrap" id="card-unlock-wrap">
+      <div class="label" id="card-unlock-label">JEUDI 19 NOV.</div>
+      <div class="clock" id="card-unlock-clock" aria-hidden="true" data-layout-allow-overflow data-layout-allow-overlap><span class="dg"><span class="strip" id="card-unlock-d0"><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="dg"><span class="strip" id="card-unlock-d1"><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b><b>1</b><b>0</b></span></span><span class="sep">:</span><span class="dg"><span class="strip" id="card-unlock-d3"><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>0</b></span></span><span class="dg"><span class="strip" id="card-unlock-d4"><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>0</b></span></span></div>
+      <div class="sub" id="card-unlock-sub">Heure locale</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-unlock-label", { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.3, ease: "expo.out" }, 0.0);
+    tl.fromTo("#card-unlock-clock", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(1.6)" }, 0.02);
+    tl.fromTo("#card-unlock-d0", { yPercent: 0 }, { yPercent: -90.0000, duration: 0.70, ease: "expo.out" }, 0.05);
+    tl.fromTo("#card-unlock-d1", { yPercent: 0 }, { yPercent: -91.6667, duration: 0.82, ease: "expo.out" }, 0.05);
+    tl.fromTo("#card-unlock-d3", { yPercent: 0 }, { yPercent: -93.7500, duration: 1.06, ease: "expo.out" }, 0.05);
+    tl.fromTo("#card-unlock-d4", { yPercent: 0 }, { yPercent: -94.4444, duration: 1.18, ease: "expo.out" }, 0.05);
+    tl.fromTo("#card-unlock-sub", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ease: "expo.out" }, 0.9);
+    tl.to("#card-unlock-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 3.740);
+
+    window.__timelines["card-unlock"] = tl;
+  </script>
+</template>

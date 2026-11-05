@@ -1,0 +1,18 @@
+.venv/
+node_modules/
+footage/
+catalog/thumbs/
+catalog/sheets/
+shorts/*/render/
+*.mp4
+*.m4a
+*.webm
+.env
+# media under third-party licences (HeyGen music, Pixabay SFX) or regenerable (voices, renders)
+*.mp3
+*.wav
+assets/music/
+# HyperFrames artifacts (snapshots contain Rockstar footage frames)
+.hyperframes/
+.DS_Store
+__pycache__/

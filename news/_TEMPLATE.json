@@ -1,0 +1,12 @@
+{
+ "title": "Sujet en une ligne (ce que le short doit apprendre)",
+ "status": "todo",
+ "type": "officiel | rumeur | leak",
+ "date": "2026-11-04",
+ "facts": [
+  "Un fait par ligne, tel que la source le dit (chiffres exacts)."
+ ],
+ "sources": ["https://… (Newswire Rockstar en priorité, puis presse)"],
+ "angle": "Optionnel : le hook ou l'angle voulu",
+ "notes": "Optionnel : plans souhaités, contraintes"
+}

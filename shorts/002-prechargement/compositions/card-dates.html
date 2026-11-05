@@ -1,0 +1,55 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-dates-bg { position:absolute; inset:0; overflow:hidden; background:linear-gradient(180deg,#0B0614 0%,#2A0B3D 48%,#5B1252 62%,#0B0614 100%); }
+    #card-dates-bg .sun { position:absolute; left:290px; top:1020px; width:500px; height:500px; border-radius:50%;
+      background:linear-gradient(180deg,#FFE14D,#FF8A3D 45%,#FF2E88); box-shadow:0 0 120px rgba(255,46,136,.6);
+      -webkit-mask:repeating-linear-gradient(180deg,#000 0 26px,transparent 26px 34px); }
+    #card-dates-bg .floor { position:absolute; left:-600px; right:-600px; top:1240px; height:900px; perspective:420px; overflow:hidden; }
+    #card-dates-bg .grid { position:absolute; inset:-400px 0 0 0; transform-origin:50% 0; transform:rotateX(62deg);
+      background-image:linear-gradient(rgba(25,227,209,.75) 3px,transparent 3px),linear-gradient(90deg,rgba(255,46,136,.7) 3px,transparent 3px);
+      background-size:120px 120px; }
+    #card-dates-wrap { position:absolute; left:60px; width:900px; top:310px; height:780px; }
+    #card-dates-label { display:inline-block; font-size:48px; background:var(--pink); padding:10px 26px 6px; transform:rotate(-2deg); }
+    #card-dates-wrap .rail { position:relative; margin-top:40px; padding-left:70px; }
+    #card-dates-line { position:absolute; left:22px; top:30px; bottom:30px; width:8px; border-radius:4px; background:linear-gradient(180deg,var(--teal),var(--pink)); transform-origin:50% 0; }
+    #card-dates-wrap .row { position:relative; display:flex; align-items:baseline; gap:26px; height:150px; opacity:.35; }
+    #card-dates-wrap .row .dot { position:absolute; left:-62px; top:38px; width:36px; height:36px; border-radius:50%; background:var(--night); border:6px solid var(--teal); }
+    #card-dates-wrap .row .d { flex:none; width:330px; font-size:82px; line-height:1; color:var(--ink); -webkit-text-stroke:6px var(--night); paint-order:stroke fill; white-space:nowrap; }
+    #card-dates-wrap .row .t { font-family:'Inter',sans-serif; font-weight:900; font-size:39px; text-transform:uppercase; white-space:nowrap; }
+    #card-dates-wrap .row.hot .d { color:var(--yellow); }
+  </style>
+  <div id="root" data-composition-id="card-dates" data-width="1080" data-height="1920">
+    <div class="mdbg" id="card-dates-bg" aria-hidden="true" data-layout-allow-overflow><div class="sun"></div><div class="floor"><div class="grid" id="card-dates-grid"></div></div></div>
+    <div class="wrap" id="card-dates-wrap">
+      <div class="label" id="card-dates-label">LE CALENDRIER</div>
+      <div class="rail"><div class="line" id="card-dates-line"></div>
+      <div class="row" id="card-dates-r0"><span class="dot"></span><span class="d">10/11</span><span class="t">Préchargement</span></div>
+      <div class="row" id="card-dates-r1"><span class="dot"></span><span class="d">12/11</span><span class="t">Codes en magasin</span></div>
+      <div class="row" id="card-dates-r2"><span class="dot"></span><span class="d">19/11</span><span class="t">Sortie</span></div>
+      <div class="row" id="card-dates-r3"><span class="dot"></span><span class="d">20/11</span><span class="t">Fin du bonus</span></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-dates-grid", { backgroundPositionY: "0px" }, { backgroundPositionY: "662px", duration: 2.760, ease: "none" }, 0);
+    tl.fromTo("#card-dates-bg", { opacity: 0 }, { opacity: 1, duration: 0.2, ease: "power2.out" }, 0);
+    tl.fromTo("#card-dates-label", { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.3, ease: "expo.out" }, 0.05);
+    tl.fromTo("#card-dates-line", { scaleY: 0 }, { scaleY: 1, duration: 0.6, ease: "power3.out" }, 0.1);
+    tl.fromTo("#card-dates-wrap .row", { x: -40 }, { x: 0, duration: 0.4, stagger: 0.08, ease: "expo.out" }, 0.15);
+    tl.fromTo("#card-dates-r0", { opacity: 0.35, scale: 1 }, { opacity: 1, scale: 1.04, duration: 0.25, ease: "back.out(2)" }, 0.350);
+    tl.fromTo("#card-dates-r0 .dot", { backgroundColor: "#0B0614", scale: 1 }, { backgroundColor: "#FF2E88", scale: 1.25, duration: 0.2, ease: "back.out(3)" }, 0.350);
+    tl.fromTo("#card-dates-r0 .d", { color: "#FFFFFF" }, { color: "#FFE14D", duration: 0.15 }, 0.350);
+    tl.fromTo("#card-dates-r1", { opacity: 0.35, scale: 1 }, { opacity: 1, scale: 1.04, duration: 0.25, ease: "back.out(2)" }, 2.080);
+    tl.fromTo("#card-dates-r1 .dot", { backgroundColor: "#0B0614", scale: 1 }, { backgroundColor: "#FF2E88", scale: 1.25, duration: 0.2, ease: "back.out(3)" }, 2.080);
+    tl.fromTo("#card-dates-r1 .d", { color: "#FFFFFF" }, { color: "#FFE14D", duration: 0.15 }, 2.080);
+    tl.to("#card-dates-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 2.500);
+
+    window.__timelines["card-dates"] = tl;
+  </script>
+</template>

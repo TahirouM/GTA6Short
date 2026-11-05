@@ -1,0 +1,28 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-hook-wrap { position:absolute; left:0; right:0; top:330px; text-align:center; }
+    #card-hook-big { font-size:300px; line-height:.9; color:var(--pink); letter-spacing:-.02em;
+      text-shadow:0 0 40px rgba(255,46,136,.55), 0 10px 0 var(--night); -webkit-text-stroke:6px var(--night); paint-order:stroke fill; }
+    #card-hook-sub { margin-top:18px; font-size:92px; line-height:1; text-transform:uppercase; text-shadow:0 6px 24px rgba(0,0,0,.7); }
+    #card-hook-sub .w { display:inline-block; }
+  </style>
+  <div id="root" data-composition-id="card-hook" data-width="1080" data-height="1920" data-layout-allow-overflow>
+    <div class="wrap" id="card-hook-wrap">
+      <div class="big" id="card-hook-big">J-15</div>
+      <div class="sub" id="card-hook-sub"><span class="w">avant</span> <span class="w">GTA</span> <span class="w">6</span> </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-hook-big", { scale: 1.35, opacity: 0, filter: "blur(14px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.42, ease: "expo.out" }, 0.0);
+    tl.fromTo("#card-hook-sub .w", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.13, stagger: 0.07, ease: "power2.out" }, 0.25);
+    tl.to("#card-hook-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 2.284);
+
+    window.__timelines["card-hook"] = tl;
+  </script>
+</template>

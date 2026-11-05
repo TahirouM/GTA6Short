@@ -1,0 +1,22 @@
+{
+ "title": "Préchargement le 10 novembre, 212 Go, sortie à minuit",
+ "status": "review",
+ "type": "officiel",
+ "date": "2026-11-04",
+ "facts": [
+  "Préchargement numérique avancé au mardi 10 novembre (deux jours plus tôt), minuit heure locale sur PS5, 00:00 GMT (1 h en France) sur Xbox.",
+  "Le jeu pèse jusqu'à 212 Go selon l'appareil.",
+  "Version boîte = un code, pas de disque ; codes en magasin à partir du 12 novembre.",
+  "Sortie le 19 novembre 2026 à minuit heure locale ; pas d'accès anticipé, même en édition Ultime.",
+  "Pack Vintage Vice City offert pour tout achat avant le 20 novembre."
+ ],
+ "sources": [
+  "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+  "https://pushsquare.com/news/2026/11/gta-6-ps5-file-size-confirmed-to-be-212gb-physical-map-available-but-not-in-boxed-copies",
+  "https://www.journaldugeek.com/2026/11/03/gta-6-date-du-prechargement-poids-du-jeu-et-heure-de-sortie-voici-quand-vous-pourrez-vraiment-y-jouer/",
+  "https://www.vice.com/en/article/gta-6-midnight-release-times-file-size-preload/"
+ ],
+ "short": "002-prechargement",
+ "render": "shorts/002-prechargement/render/002-prechargement.mp4",
+ "music": "assets/music/47226d7a.mp3"
+}

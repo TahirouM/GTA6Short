@@ -1,0 +1,19 @@
+{
+ "title": "GTA 6 tournera en 30 images par seconde sur console",
+ "status": "todo",
+ "type": "officiel",
+ "date": "2026-11-04",
+ "facts": [
+  "Rob Nelson (Rockstar North) : « the consoles are running the game at 30 frames per second » (propos rapportés le 28 août).",
+  "Pas de mode performance 60 fps annoncé au lancement.",
+  "Le jeu a le label « PS5 Pro Enhanced », sans résolution ni fps annoncés ; les rumeurs de 60 fps sur PS5 Pro ne sont pas confirmées.",
+  "L'Extended Look a été capturé sur une PS5 standard, en 4K 30 fps."
+ ],
+ "sources": [
+  "https://www.videogameschronicle.com/news/gta-6-is-confirmed-to-be-30-frames-per-second-at-launch-no-performance-mode-at-launch/",
+  "https://insider-gaming.com/gta-6-will-be-ps5-pro-enhanced/",
+  "https://www.vice.com/en/article/gta-6-60-fps-ps5-pro-leak/"
+ ],
+ "angle": "MD : compteur fps 30 vs 60, jauge. CTA : « 30 fps, ça te dérange ? »",
+ "notes": "Distinguer clairement le confirmé (30 fps) et la rumeur (60 fps PS5 Pro)."
+}

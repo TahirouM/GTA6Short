@@ -1,0 +1,392 @@
+[
+ {
+  "id": "w0",
+  "text": "Plus",
+  "start": 0.0,
+  "end": 0.221
+ },
+ {
+  "id": "w1",
+  "text": "que",
+  "start": 0.255,
+  "end": 0.372
+ },
+ {
+  "id": "w2",
+  "text": "quinze",
+  "start": 0.43,
+  "end": 0.685
+ },
+ {
+  "id": "w3",
+  "text": "jours",
+  "start": 0.731,
+  "end": 0.952
+ },
+ {
+  "id": "w4",
+  "text": "avant",
+  "start": 0.987,
+  "end": 1.219
+ },
+ {
+  "id": "w5",
+  "text": "GTA",
+  "start": 1.254,
+  "end": 1.614
+ },
+ {
+  "id": "w6",
+  "text": "6.",
+  "start": 1.672,
+  "end": 2.101
+ },
+ {
+  "id": "w7",
+  "text": "Le",
+  "start": 2.624,
+  "end": 2.728
+ },
+ {
+  "id": "w8",
+  "text": "dix-neuf",
+  "start": 2.752,
+  "end": 3.03
+ },
+ {
+  "id": "w9",
+  "text": "novembre,",
+  "start": 3.088,
+  "end": 3.541
+ },
+ {
+  "id": "w10",
+  "text": "le",
+  "start": 3.692,
+  "end": 3.773
+ },
+ {
+  "id": "w11",
+  "text": "jeu",
+  "start": 3.82,
+  "end": 3.924
+ },
+ {
+  "id": "w12",
+  "text": "sort",
+  "start": 3.971,
+  "end": 4.145
+ },
+ {
+  "id": "w13",
+  "text": "enfin",
+  "start": 4.18,
+  "end": 4.516
+ },
+ {
+  "id": "w14",
+  "text": "sur",
+  "start": 4.551,
+  "end": 4.667
+ },
+ {
+  "id": "w15",
+  "text": "PS5",
+  "start": 4.714,
+  "end": 5.108
+ },
+ {
+  "id": "w16",
+  "text": "et",
+  "start": 5.236,
+  "end": 5.364
+ },
+ {
+  "id": "w17",
+  "text": "Xbox",
+  "start": 5.399,
+  "end": 5.782
+ },
+ {
+  "id": "w18",
+  "text": "Series.",
+  "start": 5.805,
+  "end": 6.211
+ },
+ {
+  "id": "w19",
+  "text": "Direction",
+  "start": 6.815,
+  "end": 7.221
+ },
+ {
+  "id": "w20",
+  "text": "l'État",
+  "start": 7.245,
+  "end": 7.454
+ },
+ {
+  "id": "w21",
+  "text": "de",
+  "start": 7.477,
+  "end": 7.546
+ },
+ {
+  "id": "w22",
+  "text": "Leonida,",
+  "start": 7.593,
+  "end": 8.162
+ },
+ {
+  "id": "w23",
+  "text": "avec",
+  "start": 8.278,
+  "end": 8.475
+ },
+ {
+  "id": "w24",
+  "text": "Vice",
+  "start": 8.533,
+  "end": 8.731
+ },
+ {
+  "id": "w25",
+  "text": "City",
+  "start": 8.766,
+  "end": 8.998
+ },
+ {
+  "id": "w26",
+  "text": "en",
+  "start": 9.033,
+  "end": 9.079
+ },
+ {
+  "id": "w27",
+  "text": "vitrine.",
+  "start": 9.114,
+  "end": 9.555
+ },
+ {
+  "id": "w28",
+  "text": "Deux",
+  "start": 9.834,
+  "end": 10.031
+ },
+ {
+  "id": "w29",
+  "text": "héros",
+  "start": 10.066,
+  "end": 10.333
+ },
+ {
+  "id": "w30",
+  "text": ":",
+  "start": 10.437,
+  "end": 10.495
+ },
+ {
+  "id": "w31",
+  "text": "Lucia",
+  "start": 10.774,
+  "end": 11.215
+ },
+ {
+  "id": "w32",
+  "text": "et",
+  "start": 11.32,
+  "end": 11.436
+ },
+ {
+  "id": "w33",
+  "text": "Jason,",
+  "start": 11.482,
+  "end": 11.947
+ },
+ {
+  "id": "w34",
+  "text": "un",
+  "start": 12.098,
+  "end": 12.202
+ },
+ {
+  "id": "w35",
+  "text": "duo",
+  "start": 12.237,
+  "end": 12.376
+ },
+ {
+  "id": "w36",
+  "text": "de",
+  "start": 12.423,
+  "end": 12.481
+ },
+ {
+  "id": "w37",
+  "text": "braqueurs",
+  "start": 12.516,
+  "end": 12.841
+ },
+ {
+  "id": "w38",
+  "text": "façon",
+  "start": 12.864,
+  "end": 13.119
+ },
+ {
+  "id": "w39",
+  "text": "Bonnie",
+  "start": 13.154,
+  "end": 13.468
+ },
+ {
+  "id": "w40",
+  "text": "et",
+  "start": 13.526,
+  "end": 13.642
+ },
+ {
+  "id": "w41",
+  "text": "Clyde.",
+  "start": 13.665,
+  "end": 14.071
+ },
+ {
+  "id": "w42",
+  "text": "Et",
+  "start": 14.408,
+  "end": 14.512
+ },
+ {
+  "id": "w43",
+  "text": "en",
+  "start": 14.559,
+  "end": 14.628
+ },
+ {
+  "id": "w44",
+  "text": "août,",
+  "start": 14.686,
+  "end": 15.0
+ },
+ {
+  "id": "w45",
+  "text": "Rockstar",
+  "start": 15.186,
+  "end": 15.557
+ },
+ {
+  "id": "w46",
+  "text": "a",
+  "start": 15.58,
+  "end": 15.604
+ },
+ {
+  "id": "w47",
+  "text": "montré",
+  "start": 15.638,
+  "end": 15.871
+ },
+ {
+  "id": "w48",
+  "text": "vingt-sept",
+  "start": 15.917,
+  "end": 16.265
+ },
+ {
+  "id": "w49",
+  "text": "minutes",
+  "start": 16.312,
+  "end": 16.556
+ },
+ {
+  "id": "w50",
+  "text": "de",
+  "start": 16.579,
+  "end": 16.648
+ },
+ {
+  "id": "w51",
+  "text": "jeu,",
+  "start": 16.695,
+  "end": 16.95
+ },
+ {
+  "id": "w52",
+  "text": "en",
+  "start": 17.159,
+  "end": 17.299
+ },
+ {
+  "id": "w53",
+  "text": "exclusivité",
+  "start": 17.403,
+  "end": 17.914
+ },
+ {
+  "id": "w54",
+  "text": "sur",
+  "start": 17.949,
+  "end": 18.042
+ },
+ {
+  "id": "w55",
+  "text": "Netflix.",
+  "start": 18.076,
+  "end": 18.564
+ },
+ {
+  "id": "w56",
+  "text": "Tu",
+  "start": 18.947,
+  "end": 19.063
+ },
+ {
+  "id": "w57",
+  "text": "le",
+  "start": 19.11,
+  "end": 19.168
+ },
+ {
+  "id": "w58",
+  "text": "prends",
+  "start": 19.203,
+  "end": 19.377
+ },
+ {
+  "id": "w59",
+  "text": "day",
+  "start": 19.4,
+  "end": 19.481
+ },
+ {
+  "id": "w60",
+  "text": "one",
+  "start": 19.551,
+  "end": 19.713
+ },
+ {
+  "id": "w61",
+  "text": "?",
+  "start": 19.737,
+  "end": 19.783
+ },
+ {
+  "id": "w62",
+  "text": "Dis-le",
+  "start": 20.12,
+  "end": 20.329
+ },
+ {
+  "id": "w63",
+  "text": "en",
+  "start": 20.364,
+  "end": 20.422
+ },
+ {
+  "id": "w64",
+  "text": "commentaire.",
+  "start": 20.456,
+  "end": 21.13
+ }
+]

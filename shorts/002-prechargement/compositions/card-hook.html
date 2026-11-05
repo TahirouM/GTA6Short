@@ -1,0 +1,34 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-hook-wrap { position:absolute; left:60px; width:900px; top:310px; height:780px; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; text-align:center; }
+    #card-hook-kick { display:inline-block; font-size:46px; background:var(--yellow); color:var(--night);
+      padding:10px 24px 6px; letter-spacing:.05em; transform:rotate(-2deg); margin-bottom:14px; }
+    #card-hook-big { font-size:195px; line-height:.9; color:var(--ink); letter-spacing:-.02em; white-space:nowrap;
+      -webkit-text-stroke:8px var(--night); paint-order:stroke fill; }
+    #card-hook-big .u { color:var(--pink); }
+    #card-hook-sub { margin-top:22px; font-size:84px; line-height:1; text-transform:uppercase;
+      -webkit-text-stroke:7px var(--night); paint-order:stroke fill; text-shadow:0 6px 24px rgba(0,0,0,.7); }
+    #card-hook-sub .w { display:inline-block; }
+  </style>
+  <div id="root" data-composition-id="card-hook" data-width="1080" data-height="1920">
+    <div class="wrap" id="card-hook-wrap">
+      <div class="kick" id="card-hook-kick">GTA 6 PÈSE</div>
+      <div class="big" id="card-hook-big">212<span class="u"> GO</span></div>
+      <div class="sub" id="card-hook-sub"><span class="w">à</span> <span class="w">libérer</span> </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-hook-big", { scale: 1.06 }, { scale: 1, duration: 0.45, ease: "expo.out" }, 0.0);
+    tl.fromTo("#card-hook-big", { textShadow: "-12px 0 0 rgba(25,227,209,.9), 12px 0 0 rgba(255,46,136,.9)" }, { textShadow: "0px 0 0 rgba(25,227,209,0), 0px 0 0 rgba(255,46,136,0)", duration: 0.5, ease: "expo.out" }, 0.000);
+    tl.fromTo("#card-hook-sub .w", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.13, stagger: 0.07, ease: "power2.out" }, 0.3);
+    tl.to("#card-hook-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 4.220);
+
+    window.__timelines["card-hook"] = tl;
+  </script>
+</template>

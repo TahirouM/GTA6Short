@@ -1,0 +1,30 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-early-wrap { position:absolute; left:60px; width:900px; top:310px; height:780px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+    #card-early-stamp { width:820px; padding:26px 30px 18px; border:12px double #FF3B5C; border-radius:22px; transform:rotate(-7deg);
+      background:rgba(11,6,20,.55); box-shadow:0 0 0 4px rgba(255,59,92,.25); }
+    #card-early-stamp .t { font-size:115px; line-height:.92; text-transform:uppercase; color:#FF3B5C;
+      -webkit-text-stroke:4px var(--night); paint-order:stroke fill; }
+    #card-early-sub { margin-top:46px; display:inline-block; font-family:'Inter',sans-serif; font-weight:900; font-size:52px; text-transform:uppercase;
+      background:var(--ink); color:var(--night); padding:14px 28px; border-radius:14px; }
+  </style>
+  <div id="root" data-composition-id="card-early" data-width="1080" data-height="1920">
+    <div class="wrap" id="card-early-wrap">
+      <div class="stamp" id="card-early-stamp"><div class="t">Pas d&#x27;accès anticipé</div></div>
+      <div class="sub" id="card-early-sub">Même en édition Ultime</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-early-stamp", { opacity: 0, scale: 2.4, rotation: -16 }, { opacity: 1, scale: 1, rotation: -7, duration: 0.28, ease: "power4.in" }, 0.0);
+    tl.fromTo("#card-early-sub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3, ease: "expo.out" }, 0.5);
+    tl.to("#card-early-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 2.780);
+
+    window.__timelines["card-early"] = tl;
+  </script>
+</template>

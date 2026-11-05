@@ -1,0 +1,37 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-box-wrap { position:absolute; left:60px; width:900px; top:310px; height:780px; }
+    #card-box-kicker { display:inline-block; background:var(--teal); color:var(--night); font-size:40px; padding:8px 20px 6px; border-radius:6px; letter-spacing:.04em; }
+    #card-box-title { margin-top:14px; font-size:170px; line-height:.9; text-transform:uppercase; color:var(--ink);
+      text-shadow:0 0 0 transparent, 8px 8px 0 var(--pink); }
+    #card-box-wrap .chips { margin-top:34px; display:flex; gap:18px; flex-wrap:wrap; }
+    #card-box-wrap .chip { display:inline-block; font-size:52px; padding:14px 26px 10px; border-radius:999px;
+      background:rgba(11,6,20,.8); border:4px solid var(--pink); color:var(--ink); white-space:nowrap; }
+    #card-box-kicker { background:repeating-linear-gradient(-45deg,var(--yellow) 0 22px,var(--night) 22px 44px); color:var(--ink);
+      font-size:46px; padding:10px 26px 6px; -webkit-text-stroke:8px var(--night); paint-order:stroke fill; }
+    #card-box-title { color:var(--yellow); -webkit-text-stroke:7px var(--night); paint-order:stroke fill; text-shadow:none; }
+    #card-box-wrap .chip { border-color:var(--yellow); }
+  </style>
+  <div id="root" data-composition-id="card-box" data-width="1080" data-height="1920">
+    <div class="wrap" id="card-box-wrap">
+      <div class="kicker" id="card-box-kicker">ATTENTION</div>
+      <div class="title" id="card-box-title">PAS DE DISQUE</div>
+      <div class="chips"><span class="chip" id="card-box-chip0">BOÎTE = UN CODE</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-box-kicker", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.35, ease: "expo.out" }, 0.0);
+    tl.fromTo("#card-box-title", { opacity: 0, scale: 1.25, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 0.08);
+    tl.fromTo("#card-box-title", { textShadow: "-14px 0 0 rgba(25,227,209,.9), 14px 0 0 rgba(255,46,136,.9)" }, { textShadow: "0px 0 0 rgba(25,227,209,0), 0px 0 0 rgba(255,46,136,0)", duration: 0.45, ease: "expo.out" }, 0.080);
+    tl.fromTo("#card-box-chip0", { opacity: 0, scale: 0.6, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(1.6)" }, 2.040);
+    tl.to("#card-box-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 3.180);
+
+    window.__timelines["card-box"] = tl;
+  </script>
+</template>

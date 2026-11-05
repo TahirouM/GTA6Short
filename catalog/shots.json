@@ -1,0 +1,1913 @@
+{
+ "videos": {
+  "QdBZY2fkU-0": {
+   "title": "Grand Theft Auto VI Trailer 1",
+   "source": "footage/official/20231204_Grand_Theft_Auto_VI_Trailer_1 [QdBZY2fkU-0].mp4",
+   "proxy": "footage/proxy/QdBZY2fkU-0.mp4",
+   "duration": 90.093,
+   "shots": [
+    {
+     "start": 0.0,
+     "end": 2.667,
+     "id": "QdBZY2fkU-0#000",
+     "duration": 2.667,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/000.jpg"
+    },
+    {
+     "start": 2.667,
+     "end": 5.0,
+     "id": "QdBZY2fkU-0#001",
+     "duration": 2.333,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/001.jpg"
+    },
+    {
+     "start": 5.0,
+     "end": 6.533,
+     "id": "QdBZY2fkU-0#002",
+     "duration": 1.533,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/002.jpg"
+    },
+    {
+     "start": 6.533,
+     "end": 8.467,
+     "id": "QdBZY2fkU-0#003",
+     "duration": 1.934,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/003.jpg"
+    },
+    {
+     "start": 8.467,
+     "end": 10.933,
+     "id": "QdBZY2fkU-0#004",
+     "duration": 2.466,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/004.jpg"
+    },
+    {
+     "start": 10.933,
+     "end": 18.367,
+     "id": "QdBZY2fkU-0#005",
+     "duration": 7.434,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/005.jpg"
+    },
+    {
+     "start": 18.367,
+     "end": 19.167,
+     "id": "QdBZY2fkU-0#006",
+     "duration": 0.8,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/006.jpg"
+    },
+    {
+     "start": 19.167,
+     "end": 21.733,
+     "id": "QdBZY2fkU-0#007",
+     "duration": 2.566,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/007.jpg"
+    },
+    {
+     "start": 21.733,
+     "end": 23.267,
+     "id": "QdBZY2fkU-0#008",
+     "duration": 1.534,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/008.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 3,
+     "note": "plage, groupe en maillots qui marche vers la caméra",
+     "focus_x": 0.45
+    },
+    {
+     "start": 23.267,
+     "end": 24.833,
+     "id": "QdBZY2fkU-0#009",
+     "duration": 1.566,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/009.jpg"
+    },
+    {
+     "start": 24.833,
+     "end": 27.433,
+     "id": "QdBZY2fkU-0#010",
+     "duration": 2.6,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/010.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 4,
+     "note": "danse sur une voiture, néons de nuit",
+     "focus_x": 0.45
+    },
+    {
+     "start": 27.433,
+     "end": 28.967,
+     "id": "QdBZY2fkU-0#011",
+     "duration": 1.534,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/011.jpg"
+    },
+    {
+     "start": 28.967,
+     "end": 30.0,
+     "id": "QdBZY2fkU-0#012",
+     "duration": 1.033,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/012.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 11,
+     "note": "boîte de nuit, danseuses",
+     "focus_x": 0.4
+    },
+    {
+     "start": 30.0,
+     "end": 32.567,
+     "id": "QdBZY2fkU-0#013",
+     "duration": 2.567,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/013.jpg"
+    },
+    {
+     "start": 32.567,
+     "end": 34.133,
+     "id": "QdBZY2fkU-0#014",
+     "duration": 1.566,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/014.jpg"
+    },
+    {
+     "start": 34.133,
+     "end": 35.667,
+     "id": "QdBZY2fkU-0#015",
+     "duration": 1.534,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/015.jpg"
+    },
+    {
+     "start": 35.667,
+     "end": 37.433,
+     "id": "QdBZY2fkU-0#016",
+     "duration": 1.766,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/016.jpg"
+    },
+    {
+     "start": 37.433,
+     "end": 39.8,
+     "id": "QdBZY2fkU-0#017",
+     "duration": 2.367,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/017.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 1,
+     "note": "bikini sur balcon, skyline — plan iconique du Trailer 1",
+     "focus_x": 0.72
+    },
+    {
+     "start": 39.8,
+     "end": 41.333,
+     "id": "QdBZY2fkU-0#018",
+     "duration": 1.533,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/018.jpg"
+    },
+    {
+     "start": 41.333,
+     "end": 42.4,
+     "id": "QdBZY2fkU-0#019",
+     "duration": 1.067,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/019.jpg"
+    },
+    {
+     "start": 42.4,
+     "end": 43.9,
+     "id": "QdBZY2fkU-0#020",
+     "duration": 1.5,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/020.jpg"
+    },
+    {
+     "start": 43.9,
+     "end": 45.467,
+     "id": "QdBZY2fkU-0#021",
+     "duration": 1.567,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/021.jpg"
+    },
+    {
+     "start": 45.467,
+     "end": 46.533,
+     "id": "QdBZY2fkU-0#022",
+     "duration": 1.066,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/022.jpg"
+    },
+    {
+     "start": 46.533,
+     "end": 47.533,
+     "id": "QdBZY2fkU-0#023",
+     "duration": 1.0,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/023.jpg"
+    },
+    {
+     "start": 47.533,
+     "end": 48.6,
+     "id": "QdBZY2fkU-0#024",
+     "duration": 1.067,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/024.jpg"
+    },
+    {
+     "start": 48.6,
+     "end": 49.9,
+     "id": "QdBZY2fkU-0#025",
+     "duration": 1.3,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/025.jpg"
+    },
+    {
+     "start": 49.9,
+     "end": 52.167,
+     "id": "QdBZY2fkU-0#026",
+     "duration": 2.267,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/026.jpg"
+    },
+    {
+     "start": 52.167,
+     "end": 53.967,
+     "id": "QdBZY2fkU-0#027",
+     "duration": 1.8,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/027.jpg"
+    },
+    {
+     "start": 53.967,
+     "end": 55.0,
+     "id": "QdBZY2fkU-0#028",
+     "duration": 1.033,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/028.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 2,
+     "note": "bikini, jardin au tuyau d'arrosage",
+     "focus_x": 0.5
+    },
+    {
+     "start": 55.0,
+     "end": 57.333,
+     "id": "QdBZY2fkU-0#029",
+     "duration": 2.333,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/029.jpg"
+    },
+    {
+     "start": 57.333,
+     "end": 59.533,
+     "id": "QdBZY2fkU-0#030",
+     "duration": 2.2,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/030.jpg"
+    },
+    {
+     "start": 59.533,
+     "end": 60.467,
+     "id": "QdBZY2fkU-0#031",
+     "duration": 0.934,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/031.jpg"
+    },
+    {
+     "start": 60.467,
+     "end": 62.533,
+     "id": "QdBZY2fkU-0#032",
+     "duration": 2.066,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/032.jpg"
+    },
+    {
+     "start": 62.533,
+     "end": 63.567,
+     "id": "QdBZY2fkU-0#033",
+     "duration": 1.034,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/033.jpg"
+    },
+    {
+     "start": 63.567,
+     "end": 64.567,
+     "id": "QdBZY2fkU-0#034",
+     "duration": 1.0,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/034.jpg"
+    },
+    {
+     "start": 64.567,
+     "end": 65.633,
+     "id": "QdBZY2fkU-0#035",
+     "duration": 1.066,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/035.jpg"
+    },
+    {
+     "start": 65.633,
+     "end": 66.667,
+     "id": "QdBZY2fkU-0#036",
+     "duration": 1.034,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/036.jpg"
+    },
+    {
+     "start": 66.667,
+     "end": 67.667,
+     "id": "QdBZY2fkU-0#037",
+     "duration": 1.0,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/037.jpg"
+    },
+    {
+     "start": 67.667,
+     "end": 68.667,
+     "id": "QdBZY2fkU-0#038",
+     "duration": 1.0,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/038.jpg"
+    },
+    {
+     "start": 68.667,
+     "end": 70.267,
+     "id": "QdBZY2fkU-0#039",
+     "duration": 1.6,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/039.jpg"
+    },
+    {
+     "start": 70.267,
+     "end": 72.833,
+     "id": "QdBZY2fkU-0#040",
+     "duration": 2.566,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/040.jpg"
+    },
+    {
+     "start": 72.833,
+     "end": 76.5,
+     "id": "QdBZY2fkU-0#041",
+     "duration": 3.667,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/041.jpg"
+    },
+    {
+     "start": 76.5,
+     "end": 90.093,
+     "id": "QdBZY2fkU-0#042",
+     "duration": 13.593,
+     "thumb": "catalog/thumbs/QdBZY2fkU-0/042.jpg"
+    }
+   ]
+  },
+  "VQRLujxTm3c": {
+   "title": "Grand Theft Auto VI Trailer 2",
+   "source": "footage/official/20250506_Grand_Theft_Auto_VI_Trailer_2 [VQRLujxTm3c].mp4",
+   "proxy": "footage/proxy/VQRLujxTm3c.mp4",
+   "duration": 166.789,
+   "shots": [
+    {
+     "start": 0.0,
+     "end": 0.167,
+     "id": "VQRLujxTm3c#000",
+     "duration": 0.167,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/000.jpg"
+    },
+    {
+     "start": 0.167,
+     "end": 8.133,
+     "id": "VQRLujxTm3c#001",
+     "duration": 7.966,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/001.jpg"
+    },
+    {
+     "start": 8.133,
+     "end": 9.8,
+     "id": "VQRLujxTm3c#002",
+     "duration": 1.667,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/002.jpg"
+    },
+    {
+     "start": 9.8,
+     "end": 11.467,
+     "id": "VQRLujxTm3c#003",
+     "duration": 1.667,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/003.jpg"
+    },
+    {
+     "start": 11.467,
+     "end": 13.667,
+     "id": "VQRLujxTm3c#004",
+     "duration": 2.2,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/004.jpg"
+    },
+    {
+     "start": 13.667,
+     "end": 18.833,
+     "id": "VQRLujxTm3c#005",
+     "duration": 5.166,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/005.jpg"
+    },
+    {
+     "start": 18.833,
+     "end": 23.267,
+     "id": "VQRLujxTm3c#006",
+     "duration": 4.434,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/006.jpg"
+    },
+    {
+     "start": 23.267,
+     "end": 34.6,
+     "id": "VQRLujxTm3c#007",
+     "duration": 11.333,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/007.jpg"
+    },
+    {
+     "start": 34.6,
+     "end": 38.367,
+     "id": "VQRLujxTm3c#008",
+     "duration": 3.767,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/008.jpg"
+    },
+    {
+     "start": 38.367,
+     "end": 41.6,
+     "id": "VQRLujxTm3c#009",
+     "duration": 3.233,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/009.jpg"
+    },
+    {
+     "start": 41.6,
+     "end": 45.267,
+     "id": "VQRLujxTm3c#010",
+     "duration": 3.667,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/010.jpg"
+    },
+    {
+     "start": 45.267,
+     "end": 49.833,
+     "id": "VQRLujxTm3c#011",
+     "duration": 4.566,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/011.jpg"
+    },
+    {
+     "start": 49.833,
+     "end": 51.867,
+     "id": "VQRLujxTm3c#012",
+     "duration": 2.034,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/012.jpg"
+    },
+    {
+     "start": 51.867,
+     "end": 60.567,
+     "id": "VQRLujxTm3c#013",
+     "duration": 8.7,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/013.jpg"
+    },
+    {
+     "start": 60.567,
+     "end": 63.1,
+     "id": "VQRLujxTm3c#014",
+     "duration": 2.533,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/014.jpg"
+    },
+    {
+     "start": 63.1,
+     "end": 66.2,
+     "id": "VQRLujxTm3c#015",
+     "duration": 3.1,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/015.jpg"
+    },
+    {
+     "start": 66.2,
+     "end": 75.9,
+     "id": "VQRLujxTm3c#016",
+     "duration": 9.7,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/016.jpg"
+    },
+    {
+     "start": 75.9,
+     "end": 79.5,
+     "id": "VQRLujxTm3c#017",
+     "duration": 3.6,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/017.jpg"
+    },
+    {
+     "start": 79.5,
+     "end": 81.4,
+     "id": "VQRLujxTm3c#018",
+     "duration": 1.9,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/018.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 9,
+     "note": "Lucia en haut de maillot, bière au bar avec Jason",
+     "focus_x": 0.35
+    },
+    {
+     "start": 81.4,
+     "end": 83.1,
+     "id": "VQRLujxTm3c#019",
+     "duration": 1.7,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/019.jpg"
+    },
+    {
+     "start": 83.1,
+     "end": 85.1,
+     "id": "VQRLujxTm3c#020",
+     "duration": 2.0,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/020.jpg"
+    },
+    {
+     "start": 85.1,
+     "end": 86.0,
+     "id": "VQRLujxTm3c#021",
+     "duration": 0.9,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/021.jpg"
+    },
+    {
+     "start": 86.0,
+     "end": 88.233,
+     "id": "VQRLujxTm3c#022",
+     "duration": 2.233,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/022.jpg"
+    },
+    {
+     "start": 88.233,
+     "end": 89.5,
+     "id": "VQRLujxTm3c#023",
+     "duration": 1.267,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/023.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 15,
+     "note": "débardeur blanc, cuisine",
+     "focus_x": 0.4
+    },
+    {
+     "start": 89.5,
+     "end": 90.367,
+     "id": "VQRLujxTm3c#024",
+     "duration": 0.867,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/024.jpg"
+    },
+    {
+     "start": 90.367,
+     "end": 92.0,
+     "id": "VQRLujxTm3c#025",
+     "duration": 1.633,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/025.jpg"
+    },
+    {
+     "start": 92.0,
+     "end": 96.133,
+     "id": "VQRLujxTm3c#026",
+     "duration": 4.133,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/026.jpg"
+    },
+    {
+     "start": 96.133,
+     "end": 97.667,
+     "id": "VQRLujxTm3c#027",
+     "duration": 1.534,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/027.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 5,
+     "note": "robe verte moulante au bar, coucher de soleil",
+     "focus_x": 0.4
+    },
+    {
+     "start": 97.667,
+     "end": 98.467,
+     "id": "VQRLujxTm3c#028",
+     "duration": 0.8,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/028.jpg"
+    },
+    {
+     "start": 98.467,
+     "end": 99.667,
+     "id": "VQRLujxTm3c#029",
+     "duration": 1.2,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/029.jpg"
+    },
+    {
+     "start": 99.667,
+     "end": 111.3,
+     "id": "VQRLujxTm3c#030",
+     "duration": 11.633,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/030.jpg"
+    },
+    {
+     "start": 111.3,
+     "end": 117.1,
+     "id": "VQRLujxTm3c#031",
+     "duration": 5.8,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/031.jpg"
+    },
+    {
+     "start": 117.1,
+     "end": 117.933,
+     "id": "VQRLujxTm3c#032",
+     "duration": 0.833,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/032.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 10,
+     "note": "Lucia gros plan sur canapé",
+     "focus_x": 0.6
+    },
+    {
+     "start": 117.933,
+     "end": 118.833,
+     "id": "VQRLujxTm3c#033",
+     "duration": 0.9,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/033.jpg"
+    },
+    {
+     "start": 118.833,
+     "end": 119.633,
+     "id": "VQRLujxTm3c#034",
+     "duration": 0.8,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/034.jpg"
+    },
+    {
+     "start": 119.633,
+     "end": 125.767,
+     "id": "VQRLujxTm3c#035",
+     "duration": 6.134,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/035.jpg"
+    },
+    {
+     "start": 125.767,
+     "end": 126.733,
+     "id": "VQRLujxTm3c#036",
+     "duration": 0.966,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/036.jpg"
+    },
+    {
+     "start": 126.733,
+     "end": 129.367,
+     "id": "VQRLujxTm3c#037",
+     "duration": 2.634,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/037.jpg"
+    },
+    {
+     "start": 129.367,
+     "end": 134.4,
+     "id": "VQRLujxTm3c#038",
+     "duration": 5.033,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/038.jpg"
+    },
+    {
+     "start": 134.4,
+     "end": 138.133,
+     "id": "VQRLujxTm3c#039",
+     "duration": 3.733,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/039.jpg"
+    },
+    {
+     "start": 138.133,
+     "end": 139.1,
+     "id": "VQRLujxTm3c#040",
+     "duration": 0.967,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/040.jpg"
+    },
+    {
+     "start": 139.1,
+     "end": 140.033,
+     "id": "VQRLujxTm3c#041",
+     "duration": 0.933,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/041.jpg"
+    },
+    {
+     "start": 140.033,
+     "end": 141.833,
+     "id": "VQRLujxTm3c#042",
+     "duration": 1.8,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/042.jpg"
+    },
+    {
+     "start": 141.833,
+     "end": 143.733,
+     "id": "VQRLujxTm3c#043",
+     "duration": 1.9,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/043.jpg"
+    },
+    {
+     "start": 143.733,
+     "end": 147.3,
+     "id": "VQRLujxTm3c#044",
+     "duration": 3.567,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/044.jpg"
+    },
+    {
+     "start": 147.3,
+     "end": 166.789,
+     "id": "VQRLujxTm3c#045",
+     "duration": 19.489,
+     "thumb": "catalog/thumbs/VQRLujxTm3c/045.jpg"
+    }
+   ]
+  },
+  "tJbzMqJGH4k": {
+   "title": "Grand Theft Auto VI: An Extended Look",
+   "source": "footage/official/20260828_Grand_Theft_Auto_VI_-_An_Extended_Look [tJbzMqJGH4k].mp4",
+   "proxy": "footage/proxy/tJbzMqJGH4k.mp4",
+   "duration": 1608.121,
+   "shots": [
+    {
+     "start": 0.0,
+     "end": 167.167,
+     "id": "tJbzMqJGH4k#000",
+     "duration": 167.167,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/000.jpg"
+    },
+    {
+     "start": 167.167,
+     "end": 169.667,
+     "id": "tJbzMqJGH4k#001",
+     "duration": 2.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/001.jpg"
+    },
+    {
+     "start": 169.667,
+     "end": 174.567,
+     "id": "tJbzMqJGH4k#002",
+     "duration": 4.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/002.jpg"
+    },
+    {
+     "start": 174.567,
+     "end": 177.467,
+     "id": "tJbzMqJGH4k#003",
+     "duration": 2.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/003.jpg"
+    },
+    {
+     "start": 177.467,
+     "end": 205.0,
+     "id": "tJbzMqJGH4k#004",
+     "duration": 27.533,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/004.jpg"
+    },
+    {
+     "start": 205.0,
+     "end": 209.033,
+     "id": "tJbzMqJGH4k#005",
+     "duration": 4.033,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/005.jpg"
+    },
+    {
+     "start": 209.033,
+     "end": 211.733,
+     "id": "tJbzMqJGH4k#006",
+     "duration": 2.7,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/006.jpg"
+    },
+    {
+     "start": 211.733,
+     "end": 215.133,
+     "id": "tJbzMqJGH4k#007",
+     "duration": 3.4,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/007.jpg"
+    },
+    {
+     "start": 215.133,
+     "end": 218.333,
+     "id": "tJbzMqJGH4k#008",
+     "duration": 3.2,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/008.jpg"
+    },
+    {
+     "start": 218.333,
+     "end": 222.667,
+     "id": "tJbzMqJGH4k#009",
+     "duration": 4.334,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/009.jpg"
+    },
+    {
+     "start": 222.667,
+     "end": 225.5,
+     "id": "tJbzMqJGH4k#010",
+     "duration": 2.833,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/010.jpg"
+    },
+    {
+     "start": 225.5,
+     "end": 232.6,
+     "id": "tJbzMqJGH4k#011",
+     "duration": 7.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/011.jpg"
+    },
+    {
+     "start": 232.6,
+     "end": 235.433,
+     "id": "tJbzMqJGH4k#012",
+     "duration": 2.833,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/012.jpg"
+    },
+    {
+     "start": 235.433,
+     "end": 236.967,
+     "id": "tJbzMqJGH4k#013",
+     "duration": 1.534,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/013.jpg"
+    },
+    {
+     "start": 236.967,
+     "end": 246.167,
+     "id": "tJbzMqJGH4k#014",
+     "duration": 9.2,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/014.jpg"
+    },
+    {
+     "start": 246.167,
+     "end": 250.267,
+     "id": "tJbzMqJGH4k#015",
+     "duration": 4.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/015.jpg"
+    },
+    {
+     "start": 250.267,
+     "end": 251.333,
+     "id": "tJbzMqJGH4k#016",
+     "duration": 1.066,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/016.jpg"
+    },
+    {
+     "start": 251.333,
+     "end": 295.467,
+     "id": "tJbzMqJGH4k#017",
+     "duration": 44.134,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/017.jpg"
+    },
+    {
+     "start": 295.467,
+     "end": 296.833,
+     "id": "tJbzMqJGH4k#018",
+     "duration": 1.366,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/018.jpg"
+    },
+    {
+     "start": 296.833,
+     "end": 302.1,
+     "id": "tJbzMqJGH4k#019",
+     "duration": 5.267,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/019.jpg"
+    },
+    {
+     "start": 302.1,
+     "end": 324.267,
+     "id": "tJbzMqJGH4k#020",
+     "duration": 22.167,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/020.jpg"
+    },
+    {
+     "start": 324.267,
+     "end": 360.367,
+     "id": "tJbzMqJGH4k#021",
+     "duration": 36.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/021.jpg"
+    },
+    {
+     "start": 360.367,
+     "end": 364.9,
+     "id": "tJbzMqJGH4k#022",
+     "duration": 4.533,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/022.jpg"
+    },
+    {
+     "start": 364.9,
+     "end": 369.3,
+     "id": "tJbzMqJGH4k#023",
+     "duration": 4.4,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/023.jpg"
+    },
+    {
+     "start": 369.3,
+     "end": 379.9,
+     "id": "tJbzMqJGH4k#024",
+     "duration": 10.6,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/024.jpg"
+    },
+    {
+     "start": 379.9,
+     "end": 382.633,
+     "id": "tJbzMqJGH4k#025",
+     "duration": 2.733,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/025.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 7,
+     "note": "robe rose dans la rue",
+     "focus_x": 0.6
+    },
+    {
+     "start": 382.633,
+     "end": 384.433,
+     "id": "tJbzMqJGH4k#026",
+     "duration": 1.8,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/026.jpg"
+    },
+    {
+     "start": 384.433,
+     "end": 386.933,
+     "id": "tJbzMqJGH4k#027",
+     "duration": 2.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/027.jpg"
+    },
+    {
+     "start": 386.933,
+     "end": 389.4,
+     "id": "tJbzMqJGH4k#028",
+     "duration": 2.467,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/028.jpg"
+    },
+    {
+     "start": 389.4,
+     "end": 411.533,
+     "id": "tJbzMqJGH4k#029",
+     "duration": 22.133,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/029.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 16,
+     "note": "allongée sur un lit rose",
+     "focus_x": 0.6
+    },
+    {
+     "start": 411.533,
+     "end": 418.033,
+     "id": "tJbzMqJGH4k#030",
+     "duration": 6.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/030.jpg"
+    },
+    {
+     "start": 418.033,
+     "end": 445.167,
+     "id": "tJbzMqJGH4k#031",
+     "duration": 27.134,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/031.jpg"
+    },
+    {
+     "start": 445.167,
+     "end": 450.133,
+     "id": "tJbzMqJGH4k#032",
+     "duration": 4.966,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/032.jpg"
+    },
+    {
+     "start": 450.133,
+     "end": 464.5,
+     "id": "tJbzMqJGH4k#033",
+     "duration": 14.367,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/033.jpg"
+    },
+    {
+     "start": 464.5,
+     "end": 467.567,
+     "id": "tJbzMqJGH4k#034",
+     "duration": 3.067,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/034.jpg"
+    },
+    {
+     "start": 467.567,
+     "end": 470.7,
+     "id": "tJbzMqJGH4k#035",
+     "duration": 3.133,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/035.jpg"
+    },
+    {
+     "start": 470.7,
+     "end": 478.667,
+     "id": "tJbzMqJGH4k#036",
+     "duration": 7.967,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/036.jpg"
+    },
+    {
+     "start": 478.667,
+     "end": 481.533,
+     "id": "tJbzMqJGH4k#037",
+     "duration": 2.866,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/037.jpg"
+    },
+    {
+     "start": 481.533,
+     "end": 483.567,
+     "id": "tJbzMqJGH4k#038",
+     "duration": 2.034,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/038.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 6,
+     "note": "robe rose dos nu, porte-fenêtre",
+     "focus_x": 0.38
+    },
+    {
+     "start": 483.567,
+     "end": 538.8,
+     "id": "tJbzMqJGH4k#039",
+     "duration": 55.233,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/039.jpg"
+    },
+    {
+     "start": 538.8,
+     "end": 544.067,
+     "id": "tJbzMqJGH4k#040",
+     "duration": 5.267,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/040.jpg"
+    },
+    {
+     "start": 544.067,
+     "end": 546.667,
+     "id": "tJbzMqJGH4k#041",
+     "duration": 2.6,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/041.jpg"
+    },
+    {
+     "start": 546.667,
+     "end": 549.567,
+     "id": "tJbzMqJGH4k#042",
+     "duration": 2.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/042.jpg"
+    },
+    {
+     "start": 549.567,
+     "end": 551.333,
+     "id": "tJbzMqJGH4k#043",
+     "duration": 1.766,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/043.jpg"
+    },
+    {
+     "start": 551.333,
+     "end": 554.3,
+     "id": "tJbzMqJGH4k#044",
+     "duration": 2.967,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/044.jpg"
+    },
+    {
+     "start": 554.3,
+     "end": 560.8,
+     "id": "tJbzMqJGH4k#045",
+     "duration": 6.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/045.jpg"
+    },
+    {
+     "start": 560.8,
+     "end": 564.8,
+     "id": "tJbzMqJGH4k#046",
+     "duration": 4.0,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/046.jpg"
+    },
+    {
+     "start": 564.8,
+     "end": 568.833,
+     "id": "tJbzMqJGH4k#047",
+     "duration": 4.033,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/047.jpg"
+    },
+    {
+     "start": 568.833,
+     "end": 570.833,
+     "id": "tJbzMqJGH4k#048",
+     "duration": 2.0,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/048.jpg"
+    },
+    {
+     "start": 570.833,
+     "end": 572.833,
+     "id": "tJbzMqJGH4k#049",
+     "duration": 2.0,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/049.jpg"
+    },
+    {
+     "start": 572.833,
+     "end": 574.833,
+     "id": "tJbzMqJGH4k#050",
+     "duration": 2.0,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/050.jpg"
+    },
+    {
+     "start": 574.833,
+     "end": 619.733,
+     "id": "tJbzMqJGH4k#051",
+     "duration": 44.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/051.jpg"
+    },
+    {
+     "start": 619.733,
+     "end": 622.133,
+     "id": "tJbzMqJGH4k#052",
+     "duration": 2.4,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/052.jpg"
+    },
+    {
+     "start": 622.133,
+     "end": 624.633,
+     "id": "tJbzMqJGH4k#053",
+     "duration": 2.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/053.jpg"
+    },
+    {
+     "start": 624.633,
+     "end": 634.233,
+     "id": "tJbzMqJGH4k#054",
+     "duration": 9.6,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/054.jpg"
+    },
+    {
+     "start": 634.233,
+     "end": 634.867,
+     "id": "tJbzMqJGH4k#055",
+     "duration": 0.634,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/055.jpg"
+    },
+    {
+     "start": 634.867,
+     "end": 639.3,
+     "id": "tJbzMqJGH4k#056",
+     "duration": 4.433,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/056.jpg"
+    },
+    {
+     "start": 639.3,
+     "end": 642.2,
+     "id": "tJbzMqJGH4k#057",
+     "duration": 2.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/057.jpg"
+    },
+    {
+     "start": 642.2,
+     "end": 645.067,
+     "id": "tJbzMqJGH4k#058",
+     "duration": 2.867,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/058.jpg"
+    },
+    {
+     "start": 645.067,
+     "end": 650.6,
+     "id": "tJbzMqJGH4k#059",
+     "duration": 5.533,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/059.jpg"
+    },
+    {
+     "start": 650.6,
+     "end": 653.533,
+     "id": "tJbzMqJGH4k#060",
+     "duration": 2.933,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/060.jpg"
+    },
+    {
+     "start": 653.533,
+     "end": 659.567,
+     "id": "tJbzMqJGH4k#061",
+     "duration": 6.034,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/061.jpg"
+    },
+    {
+     "start": 659.567,
+     "end": 663.233,
+     "id": "tJbzMqJGH4k#062",
+     "duration": 3.666,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/062.jpg"
+    },
+    {
+     "start": 663.233,
+     "end": 671.9,
+     "id": "tJbzMqJGH4k#063",
+     "duration": 8.667,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/063.jpg"
+    },
+    {
+     "start": 671.9,
+     "end": 686.033,
+     "id": "tJbzMqJGH4k#064",
+     "duration": 14.133,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/064.jpg"
+    },
+    {
+     "start": 686.033,
+     "end": 694.367,
+     "id": "tJbzMqJGH4k#065",
+     "duration": 8.334,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/065.jpg"
+    },
+    {
+     "start": 694.367,
+     "end": 696.0,
+     "id": "tJbzMqJGH4k#066",
+     "duration": 1.633,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/066.jpg"
+    },
+    {
+     "start": 696.0,
+     "end": 701.833,
+     "id": "tJbzMqJGH4k#067",
+     "duration": 5.833,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/067.jpg"
+    },
+    {
+     "start": 701.833,
+     "end": 705.7,
+     "id": "tJbzMqJGH4k#068",
+     "duration": 3.867,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/068.jpg"
+    },
+    {
+     "start": 705.7,
+     "end": 712.8,
+     "id": "tJbzMqJGH4k#069",
+     "duration": 7.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/069.jpg"
+    },
+    {
+     "start": 712.8,
+     "end": 717.1,
+     "id": "tJbzMqJGH4k#070",
+     "duration": 4.3,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/070.jpg"
+    },
+    {
+     "start": 717.1,
+     "end": 718.9,
+     "id": "tJbzMqJGH4k#071",
+     "duration": 1.8,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/071.jpg"
+    },
+    {
+     "start": 718.9,
+     "end": 720.667,
+     "id": "tJbzMqJGH4k#072",
+     "duration": 1.767,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/072.jpg"
+    },
+    {
+     "start": 720.667,
+     "end": 722.5,
+     "id": "tJbzMqJGH4k#073",
+     "duration": 1.833,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/073.jpg"
+    },
+    {
+     "start": 722.5,
+     "end": 723.833,
+     "id": "tJbzMqJGH4k#074",
+     "duration": 1.333,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/074.jpg"
+    },
+    {
+     "start": 723.833,
+     "end": 729.133,
+     "id": "tJbzMqJGH4k#075",
+     "duration": 5.3,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/075.jpg"
+    },
+    {
+     "start": 729.133,
+     "end": 731.633,
+     "id": "tJbzMqJGH4k#076",
+     "duration": 2.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/076.jpg"
+    },
+    {
+     "start": 731.633,
+     "end": 733.767,
+     "id": "tJbzMqJGH4k#077",
+     "duration": 2.134,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/077.jpg"
+    },
+    {
+     "start": 733.767,
+     "end": 735.133,
+     "id": "tJbzMqJGH4k#078",
+     "duration": 1.366,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/078.jpg"
+    },
+    {
+     "start": 735.133,
+     "end": 744.667,
+     "id": "tJbzMqJGH4k#079",
+     "duration": 9.534,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/079.jpg"
+    },
+    {
+     "start": 744.667,
+     "end": 750.167,
+     "id": "tJbzMqJGH4k#080",
+     "duration": 5.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/080.jpg"
+    },
+    {
+     "start": 750.167,
+     "end": 789.9,
+     "id": "tJbzMqJGH4k#081",
+     "duration": 39.733,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/081.jpg"
+    },
+    {
+     "start": 789.9,
+     "end": 820.133,
+     "id": "tJbzMqJGH4k#082",
+     "duration": 30.233,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/082.jpg"
+    },
+    {
+     "start": 820.133,
+     "end": 840.067,
+     "id": "tJbzMqJGH4k#083",
+     "duration": 19.934,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/083.jpg"
+    },
+    {
+     "start": 840.067,
+     "end": 872.867,
+     "id": "tJbzMqJGH4k#084",
+     "duration": 32.8,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/084.jpg"
+    },
+    {
+     "start": 872.867,
+     "end": 874.0,
+     "id": "tJbzMqJGH4k#085",
+     "duration": 1.133,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/085.jpg"
+    },
+    {
+     "start": 874.0,
+     "end": 881.633,
+     "id": "tJbzMqJGH4k#086",
+     "duration": 7.633,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/086.jpg"
+    },
+    {
+     "start": 881.633,
+     "end": 900.533,
+     "id": "tJbzMqJGH4k#087",
+     "duration": 18.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/087.jpg"
+    },
+    {
+     "start": 900.533,
+     "end": 902.6,
+     "id": "tJbzMqJGH4k#088",
+     "duration": 2.067,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/088.jpg"
+    },
+    {
+     "start": 902.6,
+     "end": 905.333,
+     "id": "tJbzMqJGH4k#089",
+     "duration": 2.733,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/089.jpg"
+    },
+    {
+     "start": 905.333,
+     "end": 908.467,
+     "id": "tJbzMqJGH4k#090",
+     "duration": 3.134,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/090.jpg"
+    },
+    {
+     "start": 908.467,
+     "end": 916.667,
+     "id": "tJbzMqJGH4k#091",
+     "duration": 8.2,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/091.jpg"
+    },
+    {
+     "start": 916.667,
+     "end": 943.267,
+     "id": "tJbzMqJGH4k#092",
+     "duration": 26.6,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/092.jpg"
+    },
+    {
+     "start": 943.267,
+     "end": 949.9,
+     "id": "tJbzMqJGH4k#093",
+     "duration": 6.633,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/093.jpg"
+    },
+    {
+     "start": 949.9,
+     "end": 976.6,
+     "id": "tJbzMqJGH4k#094",
+     "duration": 26.7,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/094.jpg"
+    },
+    {
+     "start": 976.6,
+     "end": 999.4,
+     "id": "tJbzMqJGH4k#095",
+     "duration": 22.8,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/095.jpg"
+    },
+    {
+     "start": 999.4,
+     "end": 1003.733,
+     "id": "tJbzMqJGH4k#096",
+     "duration": 4.333,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/096.jpg"
+    },
+    {
+     "start": 1003.733,
+     "end": 1008.1,
+     "id": "tJbzMqJGH4k#097",
+     "duration": 4.367,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/097.jpg"
+    },
+    {
+     "start": 1008.1,
+     "end": 1013.2,
+     "id": "tJbzMqJGH4k#098",
+     "duration": 5.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/098.jpg"
+    },
+    {
+     "start": 1013.2,
+     "end": 1017.2,
+     "id": "tJbzMqJGH4k#099",
+     "duration": 4.0,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/099.jpg"
+    },
+    {
+     "start": 1017.2,
+     "end": 1019.667,
+     "id": "tJbzMqJGH4k#100",
+     "duration": 2.467,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/100.jpg"
+    },
+    {
+     "start": 1019.667,
+     "end": 1026.233,
+     "id": "tJbzMqJGH4k#101",
+     "duration": 6.566,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/101.jpg"
+    },
+    {
+     "start": 1026.233,
+     "end": 1029.867,
+     "id": "tJbzMqJGH4k#102",
+     "duration": 3.634,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/102.jpg"
+    },
+    {
+     "start": 1029.867,
+     "end": 1033.0,
+     "id": "tJbzMqJGH4k#103",
+     "duration": 3.133,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/103.jpg"
+    },
+    {
+     "start": 1033.0,
+     "end": 1036.033,
+     "id": "tJbzMqJGH4k#104",
+     "duration": 3.033,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/104.jpg"
+    },
+    {
+     "start": 1036.033,
+     "end": 1038.7,
+     "id": "tJbzMqJGH4k#105",
+     "duration": 2.667,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/105.jpg"
+    },
+    {
+     "start": 1038.7,
+     "end": 1042.2,
+     "id": "tJbzMqJGH4k#106",
+     "duration": 3.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/106.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 14,
+     "note": "Lucia développé-couché à la salle",
+     "focus_x": 0.5
+    },
+    {
+     "start": 1042.2,
+     "end": 1045.0,
+     "id": "tJbzMqJGH4k#107",
+     "duration": 2.8,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/107.jpg"
+    },
+    {
+     "start": 1045.0,
+     "end": 1046.9,
+     "id": "tJbzMqJGH4k#108",
+     "duration": 1.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/108.jpg"
+    },
+    {
+     "start": 1046.9,
+     "end": 1048.933,
+     "id": "tJbzMqJGH4k#109",
+     "duration": 2.033,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/109.jpg"
+    },
+    {
+     "start": 1048.933,
+     "end": 1051.033,
+     "id": "tJbzMqJGH4k#110",
+     "duration": 2.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/110.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 13,
+     "note": "kayak en bikini",
+     "focus_x": 0.5
+    },
+    {
+     "start": 1051.033,
+     "end": 1061.8,
+     "id": "tJbzMqJGH4k#111",
+     "duration": 10.767,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/111.jpg"
+    },
+    {
+     "start": 1061.8,
+     "end": 1067.467,
+     "id": "tJbzMqJGH4k#112",
+     "duration": 5.667,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/112.jpg"
+    },
+    {
+     "start": 1067.467,
+     "end": 1069.967,
+     "id": "tJbzMqJGH4k#113",
+     "duration": 2.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/113.jpg"
+    },
+    {
+     "start": 1069.967,
+     "end": 1080.0,
+     "id": "tJbzMqJGH4k#114",
+     "duration": 10.033,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/114.jpg"
+    },
+    {
+     "start": 1080.0,
+     "end": 1083.367,
+     "id": "tJbzMqJGH4k#115",
+     "duration": 3.367,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/115.jpg"
+    },
+    {
+     "start": 1083.367,
+     "end": 1091.933,
+     "id": "tJbzMqJGH4k#116",
+     "duration": 8.566,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/116.jpg"
+    },
+    {
+     "start": 1091.933,
+     "end": 1104.0,
+     "id": "tJbzMqJGH4k#117",
+     "duration": 12.067,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/117.jpg"
+    },
+    {
+     "start": 1104.0,
+     "end": 1108.467,
+     "id": "tJbzMqJGH4k#118",
+     "duration": 4.467,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/118.jpg"
+    },
+    {
+     "start": 1108.467,
+     "end": 1111.3,
+     "id": "tJbzMqJGH4k#119",
+     "duration": 2.833,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/119.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 12,
+     "note": "plage, bains de soleil",
+     "focus_x": 0.5
+    },
+    {
+     "start": 1111.3,
+     "end": 1114.8,
+     "id": "tJbzMqJGH4k#120",
+     "duration": 3.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/120.jpg"
+    },
+    {
+     "start": 1114.8,
+     "end": 1119.2,
+     "id": "tJbzMqJGH4k#121",
+     "duration": 4.4,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/121.jpg"
+    },
+    {
+     "start": 1119.2,
+     "end": 1122.4,
+     "id": "tJbzMqJGH4k#122",
+     "duration": 3.2,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/122.jpg"
+    },
+    {
+     "start": 1122.4,
+     "end": 1127.533,
+     "id": "tJbzMqJGH4k#123",
+     "duration": 5.133,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/123.jpg"
+    },
+    {
+     "start": 1127.533,
+     "end": 1138.8,
+     "id": "tJbzMqJGH4k#124",
+     "duration": 11.267,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/124.jpg"
+    },
+    {
+     "start": 1138.8,
+     "end": 1143.7,
+     "id": "tJbzMqJGH4k#125",
+     "duration": 4.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/125.jpg"
+    },
+    {
+     "start": 1143.7,
+     "end": 1147.333,
+     "id": "tJbzMqJGH4k#126",
+     "duration": 3.633,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/126.jpg"
+    },
+    {
+     "start": 1147.333,
+     "end": 1151.167,
+     "id": "tJbzMqJGH4k#127",
+     "duration": 3.834,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/127.jpg"
+    },
+    {
+     "start": 1151.167,
+     "end": 1156.033,
+     "id": "tJbzMqJGH4k#128",
+     "duration": 4.866,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/128.jpg"
+    },
+    {
+     "start": 1156.033,
+     "end": 1160.933,
+     "id": "tJbzMqJGH4k#129",
+     "duration": 4.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/129.jpg",
+     "tags": [
+      "femme",
+      "glamour",
+      "hook"
+     ],
+     "glam_rank": 8,
+     "note": "blonde en robe, salon d'aéroport",
+     "focus_x": 0.45
+    },
+    {
+     "start": 1160.933,
+     "end": 1164.267,
+     "id": "tJbzMqJGH4k#130",
+     "duration": 3.334,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/130.jpg"
+    },
+    {
+     "start": 1164.267,
+     "end": 1170.233,
+     "id": "tJbzMqJGH4k#131",
+     "duration": 5.966,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/131.jpg"
+    },
+    {
+     "start": 1170.233,
+     "end": 1173.833,
+     "id": "tJbzMqJGH4k#132",
+     "duration": 3.6,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/132.jpg"
+    },
+    {
+     "start": 1173.833,
+     "end": 1175.733,
+     "id": "tJbzMqJGH4k#133",
+     "duration": 1.9,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/133.jpg"
+    },
+    {
+     "start": 1175.733,
+     "end": 1232.767,
+     "id": "tJbzMqJGH4k#134",
+     "duration": 57.034,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/134.jpg"
+    },
+    {
+     "start": 1232.767,
+     "end": 1260.6,
+     "id": "tJbzMqJGH4k#135",
+     "duration": 27.833,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/135.jpg"
+    },
+    {
+     "start": 1260.6,
+     "end": 1273.533,
+     "id": "tJbzMqJGH4k#136",
+     "duration": 12.933,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/136.jpg"
+    },
+    {
+     "start": 1273.533,
+     "end": 1284.1,
+     "id": "tJbzMqJGH4k#137",
+     "duration": 10.567,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/137.jpg"
+    },
+    {
+     "start": 1284.1,
+     "end": 1292.033,
+     "id": "tJbzMqJGH4k#138",
+     "duration": 7.933,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/138.jpg"
+    },
+    {
+     "start": 1292.033,
+     "end": 1388.767,
+     "id": "tJbzMqJGH4k#139",
+     "duration": 96.734,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/139.jpg"
+    },
+    {
+     "start": 1388.767,
+     "end": 1395.167,
+     "id": "tJbzMqJGH4k#140",
+     "duration": 6.4,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/140.jpg"
+    },
+    {
+     "start": 1395.167,
+     "end": 1449.267,
+     "id": "tJbzMqJGH4k#141",
+     "duration": 54.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/141.jpg"
+    },
+    {
+     "start": 1449.267,
+     "end": 1450.433,
+     "id": "tJbzMqJGH4k#142",
+     "duration": 1.166,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/142.jpg"
+    },
+    {
+     "start": 1450.433,
+     "end": 1463.467,
+     "id": "tJbzMqJGH4k#143",
+     "duration": 13.034,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/143.jpg"
+    },
+    {
+     "start": 1463.467,
+     "end": 1464.9,
+     "id": "tJbzMqJGH4k#144",
+     "duration": 1.433,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/144.jpg"
+    },
+    {
+     "start": 1464.9,
+     "end": 1472.367,
+     "id": "tJbzMqJGH4k#145",
+     "duration": 7.467,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/145.jpg"
+    },
+    {
+     "start": 1472.367,
+     "end": 1481.567,
+     "id": "tJbzMqJGH4k#146",
+     "duration": 9.2,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/146.jpg"
+    },
+    {
+     "start": 1481.567,
+     "end": 1525.8,
+     "id": "tJbzMqJGH4k#147",
+     "duration": 44.233,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/147.jpg"
+    },
+    {
+     "start": 1525.8,
+     "end": 1537.3,
+     "id": "tJbzMqJGH4k#148",
+     "duration": 11.5,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/148.jpg"
+    },
+    {
+     "start": 1537.3,
+     "end": 1548.5,
+     "id": "tJbzMqJGH4k#149",
+     "duration": 11.2,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/149.jpg"
+    },
+    {
+     "start": 1548.5,
+     "end": 1550.733,
+     "id": "tJbzMqJGH4k#150",
+     "duration": 2.233,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/150.jpg"
+    },
+    {
+     "start": 1550.733,
+     "end": 1552.467,
+     "id": "tJbzMqJGH4k#151",
+     "duration": 1.734,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/151.jpg"
+    },
+    {
+     "start": 1552.467,
+     "end": 1556.4,
+     "id": "tJbzMqJGH4k#152",
+     "duration": 3.933,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/152.jpg"
+    },
+    {
+     "start": 1556.4,
+     "end": 1558.0,
+     "id": "tJbzMqJGH4k#153",
+     "duration": 1.6,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/153.jpg"
+    },
+    {
+     "start": 1558.0,
+     "end": 1560.267,
+     "id": "tJbzMqJGH4k#154",
+     "duration": 2.267,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/154.jpg"
+    },
+    {
+     "start": 1560.267,
+     "end": 1565.933,
+     "id": "tJbzMqJGH4k#155",
+     "duration": 5.666,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/155.jpg"
+    },
+    {
+     "start": 1565.933,
+     "end": 1567.233,
+     "id": "tJbzMqJGH4k#156",
+     "duration": 1.3,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/156.jpg"
+    },
+    {
+     "start": 1567.233,
+     "end": 1568.333,
+     "id": "tJbzMqJGH4k#157",
+     "duration": 1.1,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/157.jpg"
+    },
+    {
+     "start": 1568.333,
+     "end": 1569.867,
+     "id": "tJbzMqJGH4k#158",
+     "duration": 1.534,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/158.jpg"
+    },
+    {
+     "start": 1569.867,
+     "end": 1572.8,
+     "id": "tJbzMqJGH4k#159",
+     "duration": 2.933,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/159.jpg"
+    },
+    {
+     "start": 1572.8,
+     "end": 1576.233,
+     "id": "tJbzMqJGH4k#160",
+     "duration": 3.433,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/160.jpg"
+    },
+    {
+     "start": 1576.233,
+     "end": 1608.121,
+     "id": "tJbzMqJGH4k#161",
+     "duration": 31.888,
+     "thumb": "catalog/thumbs/tJbzMqJGH4k/161.jpg"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,33 @@
+<template>
+  <style>
+    
+:root{--pink:#FF2E88;--orange:#FF8A3D;--teal:#19E3D1;--night:#0B0614;--ink:#FFFFFF;--yellow:#FFE14D;}
+
+    #root { position:absolute; inset:0; font-family:'Archivo Black',sans-serif; color:var(--ink); }
+    
+    #card-date-wrap { position:absolute; left:70px; right:70px; top:300px; }
+    #card-date-kicker { display:inline-block; background:var(--teal); color:var(--night); font-size:40px; padding:8px 20px 6px; border-radius:6px; letter-spacing:.04em; }
+    #card-date-title { margin-top:14px; font-size:200px; line-height:.9; text-transform:uppercase; color:var(--ink);
+      text-shadow:0 0 0 transparent, 8px 8px 0 var(--pink); }
+    #card-date-wrap .chips { margin-top:34px; display:flex; gap:20px; flex-wrap:wrap; }
+    #card-date-wrap .chip { display:inline-block; font-size:54px; padding:14px 28px 10px; border-radius:999px;
+      background:rgba(11,6,20,.78); border:4px solid var(--pink); color:var(--ink); }
+  </style>
+  <div id="root" data-composition-id="card-date" data-width="1080" data-height="1920" data-layout-allow-overflow>
+    <div class="wrap" id="card-date-wrap">
+      <div class="kicker" id="card-date-kicker">SORTIE</div>
+      <div class="title" id="card-date-title">19 NOV.</div>
+      <div class="chips"><span class="chip" id="card-date-chip0">PS5</span><span class="chip" id="card-date-chip1">XBOX SERIES</span></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#card-date-kicker", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.35, ease: "expo.out" }, 0.0);
+    tl.fromTo("#card-date-title", { opacity: 0, scale: 1.25, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 0.08);
+    tl.fromTo("#card-date-chip0", { opacity: 0, scale: 0.6, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(1.6)" }, 2.170);
+    tl.fromTo("#card-date-chip1", { opacity: 0, scale: 0.6, y: 20 }, { opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(1.6)" }, 2.855);
+    tl.to("#card-date-wrap", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power3.in" }, 3.931);
+
+    window.__timelines["card-date"] = tl;
+  </script>
+</template>

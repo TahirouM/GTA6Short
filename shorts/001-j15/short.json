@@ -1,0 +1,29 @@
+{
+  "handle": "@gta6.actu",
+  "tag": "GTA 6 · ACTU",
+  "voice": "assets/audio/el/voice.mp3",
+  "words": "assets/audio/el/words.json",
+  "emphasis": ["quinze", "dix-neuf", "Leonida,", "Vice", "City", "Lucia", "Jason,", "vingt-sept", "Netflix."],
+  "tail": 1.4,
+  "beats": [
+    {"id": "hook", "anchor": null,
+     "shots": [{"shot": "QdBZY2fkU-0#001", "focus": 0.5}],
+     "card": {"type": "hook", "big": "J-15", "sub": "avant GTA 6"}},
+    {"id": "date", "anchor": "Le dix-neuf",
+     "shots": [{"shot": "VQRLujxTm3c#008", "in": 0.3, "focus": 0.55, "w": 1.1}, {"shot": "QdBZY2fkU-0#014", "focus": 0.5}],
+     "card": {"type": "headline", "kicker": "SORTIE", "title": "19 NOV.",
+              "chips": [{"text": "PS5", "at": "PS5"}, {"text": "XBOX SERIES", "at": "Xbox"}]}},
+    {"id": "place", "anchor": "Direction",
+     "shots": [{"shot": "QdBZY2fkU-0#018", "focus": 0.5}, {"shot": "QdBZY2fkU-0#008", "focus": 0.45}],
+     "card": {"type": "place", "kicker": "ÉTAT DE LEONIDA", "title": "Vice City", "sub": "La ville star du jeu"}},
+    {"id": "duo", "anchor": "Deux",
+     "shots": [{"shot": "VQRLujxTm3c#015", "focus": 0.45}, {"shot": "QdBZY2fkU-0#039", "focus": 0.45, "rate": 0.8}],
+     "card": {"type": "names", "pos": "low", "items": [{"text": "Lucia", "at": "Lucia"}, {"text": "Jason", "at": "Jason"}]}},
+    {"id": "netflix", "anchor": "Et en août",
+     "shots": [{"shot": "VQRLujxTm3c#042", "focus": 0.5, "w": 1.6}, {"shot": "VQRLujxTm3c#033", "focus": 0.5, "rate": 0.6, "w": 1.0}, {"shot": "VQRLujxTm3c#043", "focus": 0.5, "w": 1.5}],
+     "card": {"type": "stat", "value": 27, "unit": "MIN", "label": "EXTENDED LOOK", "sub": "Exclu Netflix · 27 août"}},
+    {"id": "cta", "anchor": "Tu le prends",
+     "shots": [{"shot": "VQRLujxTm3c#020", "focus": 0.5, "rate": 0.6}],
+     "card": {"type": "cta", "title": "Day one ?", "sub": "Dis-le en commentaire"}}
+  ]
+}
